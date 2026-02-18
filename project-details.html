@@ -135,12 +135,21 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text-white animated slideInRight">Projects</h1>
+            <h1 class="display-3 text-white animated slideInRight"
+                data-lang="projects_page_title">Projects</h1>
+
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="project.html">Projects</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Project Details</li>
+                    <li class="breadcrumb-item">
+                        <a href="index.html" data-lang="nav_home">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="project.html" data-lang="nav_projects">Projects</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page"
+                        data-lang="nav_project_details">
+                        Project Details
+                    </li>
                 </ol>
             </nav>
         </div>
@@ -160,7 +169,9 @@
                             class="img-fluid w-100"
                             alt="Project Image">
                         <div class="image-overlay">
-                            <span>Luxury Residential Villa</span>
+                            <span data-lang="project_type">
+                                Luxury Residential Villa
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -168,26 +179,43 @@
                 <!-- Main Content -->
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.4s">
 
-                    <h3 class="mb-4 fw-bold">Project Overview</h3>
+                    <h3 class="mb-4 fw-bold"
+                        data-lang="project_overview_title">
+                        Project Overview
+                    </h3>
 
-                    <p class="text-muted">
+                    <p class="text-muted"
+                    data-lang="project_desc_1">
                         This luxury residential villa was constructed using premium materials
                         and advanced engineering techniques. The project included structural works,
                         finishing, smart systems integration, and exterior landscaping.
                     </p>
 
-                    <p class="text-muted">
+                    <p class="text-muted"
+                    data-lang="project_desc_2">
                         Our team ensured high-quality execution while maintaining strict
                         deadlines and safety standards. The villa features modern architectural
                         concepts, energy-efficient systems, and elegant finishing.
                     </p>
 
-                    <h4 class="mt-4 mb-3">Scope of Work</h4>
+                    <h4 class="mt-4 mb-3"
+                        data-lang="scope_title">
+                        Scope of Work
+                    </h4>
+
                     <ul class="list-unstyled project-list">
-                        <li><i class="fa fa-check"></i> Structural Concrete Works</li>
-                        <li><i class="fa fa-check"></i> Full Interior Finishing</li>
-                        <li><i class="fa fa-check"></i> Smart Home Systems</li>
-                        <li><i class="fa fa-check"></i> Exterior Facade & Landscaping</li>
+                        <li><i class="fa fa-check"></i>
+                            <span data-lang="scope_1">Structural Concrete Works</span>
+                        </li>
+                        <li><i class="fa fa-check"></i>
+                            <span data-lang="scope_2">Full Interior Finishing</span>
+                        </li>
+                        <li><i class="fa fa-check"></i>
+                            <span data-lang="scope_3">Smart Home Systems</span>
+                        </li>
+                        <li><i class="fa fa-check"></i>
+                            <span data-lang="scope_4">Exterior Facade & Landscaping</span>
+                        </li>
                     </ul>
 
                 </div>
@@ -196,12 +224,30 @@
                 <div class="col-lg-3 wow fadeInRight" data-wow-delay="0.5s">
 
                     <div class="project-sidebar">
-                        <h5 class="mb-4">Project Information</h5>
-                        <p><strong>Client:</strong> Private Owner</p>
-                        <p><strong>Location:</strong> Yanbu, KSA</p>
-                        <p><strong>Category:</strong> Residential Construction</p>
-                        <p><strong>Duration:</strong> 8 Months</p>
-                        <p><strong>Status:</strong> Completed</p>
+                        <h5 class="mb-4"
+                            data-lang="project_info_title">
+                            Project Information
+                        </h5>
+
+                        <p><strong data-lang="client_label">Client:</strong>
+                            <span data-lang="client_value">Private Owner</span>
+                        </p>
+
+                        <p><strong data-lang="location_label">Location:</strong>
+                            <span data-lang="location_value">Yanbu, KSA</span>
+                        </p>
+
+                        <p><strong data-lang="category_label">Category:</strong>
+                            <span data-lang="category_value">Residential Construction</span>
+                        </p>
+
+                        <p><strong data-lang="duration_label">Duration:</strong>
+                            <span data-lang="duration_value">8 Months</span>
+                        </p>
+
+                        <p><strong data-lang="status_label">Status:</strong>
+                            <span data-lang="status_value">Completed</span>
+                        </p>
                     </div>
 
                 </div>
@@ -216,78 +262,75 @@
     <div class="container py-5 my-5">
 
         <div class="text-center mb-5 wow fadeInUp">
-            <h2 class="fw-bold">Project Gallery</h2>
+            <h2 class="fw-bold"
+                data-lang="gallery_title">
+                Project Gallery
+            </h2>
         </div>
 
         <div class="row g-4">
 
-            <!-- Project 1 -->
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                 <a href="project-details" class="gallery-item">
                     <div class="gallery-img">
                         <img src="img/project-1.jpg" class="img-fluid w-100" alt="">
                         <div class="gallery-overlay">
-                            <h5>Luxury Residential Villa</h5>
+                            <h5 data-lang="gallery_1">Luxury Residential Villa</h5>
                         </div>
                     </div>
                 </a>
             </div>
 
-            <!-- Project 2 -->
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                 <a href="project-details" class="gallery-item">
                     <div class="gallery-img">
                         <img src="img/project-2.jpg" class="img-fluid w-100" alt="">
                         <div class="gallery-overlay">
-                            <h5>Commercial Building Project</h5>
+                            <h5 data-lang="gallery_2">Commercial Building Project</h5>
                         </div>
                     </div>
                 </a>
             </div>
 
-            <!-- Project 3 -->
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                 <a href="project-details" class="gallery-item">
                     <div class="gallery-img">
                         <img src="img/project-3.jpg" class="img-fluid w-100" alt="">
                         <div class="gallery-overlay">
-                            <h5>Interior Finishing Works</h5>
+                            <h5 data-lang="gallery_3">Interior Finishing Works</h5>
                         </div>
                     </div>
                 </a>
             </div>
 
-            <!-- Project 4 -->
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                 <a href="project-details" class="gallery-item">
                     <div class="gallery-img">
                         <img src="img/project-4.jpg" class="img-fluid w-100" alt="">
                         <div class="gallery-overlay">
-                            <h5>Office Fit-Out & Renovation</h5>
+                            <h5 data-lang="gallery_4">Office Fit-Out & Renovation</h5>
                         </div>
                     </div>
                 </a>
             </div>
 
-            <!-- Project 5 -->
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                 <a href="project-details" class="gallery-item">
                     <div class="gallery-img">
                         <img src="img/project-5.jpg" class="img-fluid w-100" alt="">
                         <div class="gallery-overlay">
-                            <h5>Concrete & Structural Works</h5>
+                            <h5 data-lang="gallery_5">Concrete & Structural Works</h5>
                         </div>
                     </div>
                 </a>
             </div>
 
-            <!-- Project 6 -->
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                 <a href="project-details" class="gallery-item">
                     <div class="gallery-img">
                         <img src="img/project-6.jpg" class="img-fluid w-100" alt="">
                         <div class="gallery-overlay">
-                            <h5>Exterior Facade & Finishing</h5>
+                            <h5 data-lang="gallery_6">Exterior Facade & Finishing</h5>
                         </div>
                     </div>
                 </a>
