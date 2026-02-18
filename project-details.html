@@ -469,24 +469,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-$mail->Host       = 'smtp.hostinger.com';
-$mail->SMTPAuth   = true;
-$mail->Username   = 'info@modrnbusines.com';
-$mail->Password   = 'Modern_business_info_2026';
-$mail->SMTPSecure = 'ssl';
-$mail->Port       = 465;
-
-$mail->setFrom('info@modrnbusines.com', 'Modern Business');
-$mail->addReplyTo($_POST['email'], htmlspecialchars($_POST['name']));
-$mail->addAddress('info@modrnbusines.com', 'Modern Business');

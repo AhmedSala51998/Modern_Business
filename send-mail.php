@@ -18,16 +18,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // SMTP Settings
         $mail->isSMTP();
-        $mail->Host       = 'smtp.gmail.com';
+        $mail->Host       = 'smtp.hostinger.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'modernbusiness515@gmail.com';
-        $mail->Password   = 'wizl vuki gumg xfgu';
-        $mail->SMTPSecure = 'tls';
-        $mail->Port       = 587;
+        $mail->Username   = 'info@modrnbusines.com';
+        $mail->Password   = 'Modern_business_info_2026';
+        $mail->SMTPSecure = 'ssl';
+        $mail->Port       = 465;
 
-        // From & To
-        $mail->setFrom($_POST['email'], htmlspecialchars($_POST['name']));
-        $mail->addAddress('modernbusiness515@gmail.com', 'Modern Business');
+        $mail->setFrom('info@modrnbusines.com', 'Modern Business');
+        $mail->addReplyTo($_POST['email'], htmlspecialchars($_POST['name']));
+        $mail->addAddress('info@modrnbusines.com', 'Modern Business');
 
         // Logo
         $logoUrl = 'https://modrnbusines.com/img/logo.png';
