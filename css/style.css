@@ -1721,11 +1721,8 @@ html[dir="rtl"] .topbar-right span:nth-child(1) {
 html[dir="rtl"] .topbar-right span:nth-child(2) {
     order: 1;
 }
-.topbar-right .lang-switch {
-    margin-left: 15px;
-}
 
 html[dir="rtl"] .topbar-right .lang-switch {
     margin-left: 0;
-    margin-right: 15px;
+    margin-right: 15px !important;
 }
