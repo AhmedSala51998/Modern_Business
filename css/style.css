@@ -448,7 +448,6 @@ html[dir="rtl"] .page-header .breadcrumb-item {
 }
 
 
-
 /*** Facts ***/
 .facts {
     position: relative;
@@ -1597,10 +1596,4 @@ html[dir="rtl"] .team-item .position-relative {
     padding-left: 0 !important;
     padding-right: 1.5rem !important;
     text-align: right;
-}
-.project-description {
-    position: relative !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    display: block !important;
 }
