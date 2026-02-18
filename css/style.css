@@ -427,6 +427,26 @@ html[dir="rtl"] .contact-text {
     color: var(--light);
 }
 
+/* ===== RTL Fix For Arabic ===== */
+
+html[dir="rtl"] .page-header {
+    background: linear-gradient(to left, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), 
+                url(../img/carousel-2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+html[dir="rtl"] .page-header .breadcrumb {
+    direction: rtl;
+}
+
+html[dir="rtl"] .page-header .breadcrumb-item+.breadcrumb-item::before {
+    float: right;
+}
+
+html[dir="rtl"] .page-header .breadcrumb-item {
+    text-align: right;
+}
+
 
 /*** Facts ***/
 .facts {
