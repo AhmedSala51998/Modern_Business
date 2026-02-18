@@ -1714,3 +1714,12 @@ html[dir="rtl"] .topbar-right .fa-phone-alt {
     margin-right: 0 !important;
     margin-left: 8px !important;
 }
+html[dir="rtl"] .topbar-right {
+    flex-direction: row-reverse;
+}
+html[dir="rtl"] .topbar-right .me-3,
+html[dir="rtl"] .topbar-right .me-4,
+html[dir="rtl"] .topbar-right .me-2 {
+    margin-right: 0 !important;
+    margin-left: 1rem !important;
+}
