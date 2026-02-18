@@ -297,9 +297,10 @@
                             </div>
 
                             <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5 w-100"
+                                <button id="submitBtn"
+                                        class="btn btn-primary py-3 px-5 w-100"
                                         type="submit">
-                                    <span data-lang="contact_submit_btn">
+                                    <span id="btnText" data-lang="contact_submit_btn">
                                         Send Request
                                     </span>
                                 </button>
@@ -436,35 +437,63 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        const messages = {
+    const messages = {
 
-            en: {
-                enter_name: "Please enter your name",
-                enter_email: "Please enter your email",
-                invalid_email: "Invalid email format",
-                enter_subject: "Please enter project type",
-                enter_message: "Please enter project details",
+        en: {
+            enter_name: "Please enter your name",
+            enter_email: "Please enter your email",
+            invalid_email: "Invalid email format",
+            enter_subject: "Please enter project type",
+            enter_message: "Please enter project details",
 
-                success_title: "Success",
-                error_title: "Error",
-                oops_title: "Oops...",
-                general_error: "Something went wrong. Please try again."
-            },
+            placeholder_name: "Your Name",
+            placeholder_email: "Your Email",
+            placeholder_subject: "Project Type",
+            placeholder_message: "Project Details",
 
-            ar: {
-                enter_name: "يرجى إدخال الاسم",
-                enter_email: "يرجى إدخال البريد الإلكتروني",
-                invalid_email: "صيغة البريد الإلكتروني غير صحيحة",
-                enter_subject: "يرجى إدخال نوع المشروع",
-                enter_message: "يرجى إدخال تفاصيل المشروع",
+            sending: "Sending...",
+            success_title: "Success",
+            error_title: "Error",
+            oops_title: "Oops...",
+            general_error: "Something went wrong. Please try again."
+        },
 
-                success_title: "تم بنجاح",
-                error_title: "خطأ",
-                oops_title: "عذراً",
-                general_error: "حدث خطأ ما، حاول مرة أخرى."
-            }
+        ar: {
+            enter_name: "يرجى إدخال الاسم",
+            enter_email: "يرجى إدخال البريد الإلكتروني",
+            invalid_email: "صيغة البريد الإلكتروني غير صحيحة",
+            enter_subject: "يرجى إدخال نوع المشروع",
+            enter_message: "يرجى إدخال تفاصيل المشروع",
 
-        };
+            placeholder_name: "الاسم",
+            placeholder_email: "البريد الإلكتروني",
+            placeholder_subject: "نوع المشروع",
+            placeholder_message: "تفاصيل المشروع",
+
+            sending: "جاري الإرسال...",
+            success_title: "تم بنجاح",
+            error_title: "خطأ",
+            oops_title: "عذراً",
+            general_error: "حدث خطأ ما، حاول مرة أخرى."
+        }
+
+    };
+    </script>
+    <script>
+        function updatePlaceholders(lang){
+
+            $("[data-lang-placeholder]").each(function(){
+
+                let key = $(this).data("lang-placeholder");
+
+                if(messages[lang][key]){
+                    $(this).attr("placeholder", messages[lang][key]);
+                }
+
+            });
+
+        }
+    </script>
     </script>
 
     <script>
@@ -474,6 +503,7 @@
                 e.preventDefault();
 
                 let currentLang = localStorage.getItem("siteLang") || "en";
+                updatePlaceholders(currentLang);
                 let t = messages[currentLang];
 
                 let isValid = true;
@@ -512,6 +542,11 @@
 
                 if(isValid){
 
+                    let originalText = $("#btnText").text();
+
+                    $("#submitBtn").prop("disabled", true);
+                    $("#btnText").text(t.sending);
+
                     $.ajax({
                         url: "send-mail.php",
                         type: "POST",
@@ -521,9 +556,12 @@
                             email: email,
                             subject: subject,
                             message: message,
-                            lang: currentLang   // 👈 بنبعت اللغة للـ PHP
+                            lang: currentLang
                         },
                         success: function(response){
+
+                            $("#submitBtn").prop("disabled", false);
+                            $("#btnText").text(originalText);
 
                             if(response.status === "success"){
 
@@ -548,6 +586,9 @@
                             }
                         },
                         error: function(){
+
+                            $("#submitBtn").prop("disabled", false);
+                            $("#btnText").text(originalText);
 
                             Swal.fire({
                                 icon: 'error',
