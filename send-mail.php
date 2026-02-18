@@ -116,10 +116,32 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 <hr>
 
-                <p style="color:#777;font-size:14px;">
-                  '.$sentOn.' '.date("Y-m-d H:i").' <br>
-                  '.$companyText.'
-                </p>
+              <!-- Footer -->
+              <p style="color:#777;font-size:14px;line-height:1.7;margin-top:20px;">
+                '.$sentOn.' '.date("Y-m-d H:i").'<br>
+                '.$companyText.'
+              </p>
+
+              <p style="font-size:14px;color:#999;line-height:1.6;margin-top:25px;">
+                '.($lang === 'ar'
+                  ? 'تم إرسال هذه الرسالة عبر نموذج "تواصل معنا" على موقع مودرن بيزنس. يرجى مراجعة البيانات والتواصل مع العميل في أقرب وقت.'
+                  : 'This message was sent via the "Contact Us" form on Modern Business website. Please review the details and respond to the client accordingly.'
+                ).'
+              </p>
+
+              <p style="font-size:13px;color:#aaa;margin-top:10px;">
+                <a href="https://modrnbusines.com" target="_blank" style="color:#aaa;text-decoration:underline;">
+                  '.($lang === 'ar' ? 'زيارة الموقع' : 'Visit Website').'
+                </a>
+                |
+                <a href="https://modrnbusines.com/privacy" target="_blank" style="color:#aaa;text-decoration:underline;">
+                  '.($lang === 'ar' ? 'سياسة الخصوصية' : 'Privacy Policy').'
+                </a>
+              </p>
+
+              <p style="font-size:13px;color:#aaa;margin-top:15px;">
+                © '.date('Y').' Modern Business. '.($lang === 'ar' ? 'جميع الحقوق محفوظة.' : 'All rights reserved.').'
+              </p>
 
               </td>
             </tr>
