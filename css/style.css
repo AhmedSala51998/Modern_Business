@@ -1621,3 +1621,96 @@ html[dir="rtl"] .team-item .position-relative {
         padding: 2px 6px;
     }
 }
+/* ===============================
+   PREMIUM MOBILE TOPBAR DESIGN
+================================ */
+
+@media (max-width: 768px) {
+
+    .container-fluid.bg-dark {
+        background: linear-gradient(90deg, #0d1b2a, #1b263b);
+        padding: 6px 0;
+    }
+
+    .topbar-left span {
+        display: none;
+    }
+
+    .topbar-left a {
+        font-size: 14px;
+        margin: 0 4px;
+        opacity: 0.85;
+        transition: 0.3s;
+    }
+
+    .topbar-left a:hover {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+
+    .topbar-right {
+        padding: 4px 10px !important;
+        gap: 8px;
+    }
+
+    .phone-number {
+        font-size: 13px;
+        text-decoration: none;
+        color: #fff;
+        background: rgba(255,255,255,0.08);
+        padding: 4px 10px;
+        border-radius: 20px;
+        transition: 0.3s;
+    }
+
+    .phone-number:hover {
+        background: #ff6b00;
+        color: #fff;
+    }
+
+    .lang-switch {
+        background: rgba(255,255,255,0.1);
+        border-radius: 20px;
+        padding: 2px;
+        display: flex;
+    }
+
+    .lang-switch button {
+        border: none;
+        font-size: 12px;
+        padding: 4px 10px;
+        border-radius: 20px;
+        background: transparent;
+        color: #fff;
+        transition: 0.3s;
+    }
+
+    .lang-switch button.active {
+        background: #ff6b00;
+        color: #fff;
+    }
+
+}
+/* Fix Desktop RTL Layout */
+
+html[dir="rtl"] .topbar-left {
+    justify-content: flex-end !important;
+    text-align: right !important;
+}
+
+html[dir="rtl"] .topbar-right {
+    justify-content: flex-start !important;
+    text-align: left !important;
+}
+
+html[dir="rtl"] .topbar-right .me-2,
+html[dir="rtl"] .topbar-right .me-3,
+html[dir="rtl"] .topbar-left .me-2 {
+    margin-right: 0 !important;
+    margin-left: 0.5rem !important;
+}
+
+html[dir="rtl"] .topbar-right .fa-phone-alt {
+    margin-right: 0 !important;
+    margin-left: 8px !important;
+}
