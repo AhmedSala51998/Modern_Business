@@ -1597,104 +1597,27 @@ html[dir="rtl"] .team-item .position-relative {
     padding-right: 1.5rem !important;
     text-align: right;
 }
-.topbar-custom {
-    font-size: 14px;
-}
-
-.topbar-wrapper {
-    min-height: 45px;
-}
-
 @media (max-width: 768px) {
 
-    .topbar-wrapper {
-        flex-wrap: nowrap !important;
-        overflow-x: auto;
-    }
-
-    .topbar-left span,
-    .topbar-right span {
-        font-size: 12px;
-    }
-
-    .topbar-left i,
-    .topbar-right i {
-        font-size: 12px;
-    }
-
-    .lang-switch button {
-        font-size: 11px;
-        padding: 2px 6px;
-    }
-}
-.topbar {
-    background: #1c1c1c;
-    color: #fff;
-    font-size: 14px;
-}
-
-.topbar-inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 6px 15px;
-}
-
-.topbar-social,
-.topbar-contact {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.topbar-social a,
-.phone-link {
-    color: #fff;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.topbar-social a:hover,
-.phone-link:hover {
-    color: #ff6a00;
-}
-
-.lang-switch button {
-    background: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-    padding: 2px 8px;
-    font-size: 12px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.lang-switch button:hover,
-.lang-switch .active-lang {
-    background: #ff6a00;
-    border-color: #ff6a00;
-}
-
-@media (max-width: 768px) {
-
-    .topbar-inner {
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .topbar-social span {
+    .topbar-left span {
         display: none;
     }
 
-    .topbar-social i {
+    .topbar-right {
+        padding: 5px 0 !important;
+        gap: 8px;
+    }
+
+    .topbar-right span {
         font-size: 13px;
     }
 
-    .phone-link {
+    .topbar-right i {
         font-size: 13px;
     }
 
     .lang-switch button {
-        font-size: 11px;
+        font-size: 12px;
+        padding: 2px 6px;
     }
 }

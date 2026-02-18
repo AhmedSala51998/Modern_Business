@@ -40,33 +40,50 @@
 
 
     <!-- Topbar Start -->
-    <div class="topbar">
-        <div class="container-fluid">
-            <div class="topbar-inner">
+    <div class="container-fluid bg-dark px-0">
+        <div class="row g-0 align-items-center">
 
-                <!-- Social -->
-                <div class="topbar-social">
-                    <span data-lang="follow">تابعنا:</span>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+            <!-- Left Side -->
+            <div class="col-12 col-lg-6 ps-lg-5 text-center text-lg-start">
+                <div class="h-100 d-inline-flex align-items-center justify-content-center justify-content-lg-start text-white topbar-left">
+
+                    <span class="me-2" data-lang="follow">Follow Us:</span>
+
+                    <a class="btn btn-link text-light p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-link text-light p-1" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-link text-light p-1" href="#"><i class="fab fa-instagram"></i></a>
+
                 </div>
-
-                <!-- Contact -->
-                <div class="topbar-contact">
-                    <a href="tel:+966555366665" class="phone-link">
-                        <i class="fa fa-phone-alt"></i>
-                        +966555366665
-                    </a>
-
-                    <div class="lang-switch">
-                        <button onclick="setLang('ar')" id="btn-ar">AR</button>
-                        <button onclick="setLang('en')" id="btn-en">EN</button>
-                    </div>
-                </div>
-
             </div>
+
+            <!-- Right Side -->
+            <div class="col-12 col-lg-6 text-center text-lg-end">
+                <div class="h-100 d-inline-flex align-items-center justify-content-center justify-content-lg-end text-white py-2 px-lg-5 topbar-right flex-wrap">
+
+                    <span class="fw-bold me-2 d-flex align-items-center">
+                        <i class="fa fa-phone-alt me-2"></i>
+                        <span data-lang="call">Call Us:</span>
+                    </span>
+
+                    <span class="fw-bold me-3">+966555366665</span>
+
+                    <!-- Language Switch -->
+                    <div class="lang-switch d-flex">
+                        <button onclick="setLang('en')" id="btn-en"
+                            class="btn btn-sm btn-outline-light me-1 px-2">
+                            EN
+                        </button>
+
+                        <button onclick="setLang('ar')" id="btn-ar"
+                            class="btn btn-sm btn-outline-light px-2">
+                            AR
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </div>
     <!-- Topbar End -->
