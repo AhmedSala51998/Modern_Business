@@ -611,9 +611,7 @@
 
         document.querySelectorAll("[data-lang-placeholder]").forEach(el => {
             const key = el.getAttribute("data-lang-placeholder");
-            if (translations[lang][key]) {
-                el.setAttribute("placeholder", translations[lang][key]);
-            }
+            el.setAttribute("placeholder", translations[lang][key]);
         });
 
         if(lang === "ar"){
@@ -624,10 +622,8 @@
             document.documentElement.lang = "en";
         }
 
-        // ===== Active Button =====
         document.getElementById("btn-en").classList.remove("active-lang");
         document.getElementById("btn-ar").classList.remove("active-lang");
-
         document.getElementById("btn-" + lang).classList.add("active-lang");
 
         localStorage.setItem("siteLang", lang);
