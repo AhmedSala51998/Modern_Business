@@ -1597,3 +1597,33 @@ html[dir="rtl"] .team-item .position-relative {
     padding-right: 1.5rem !important;
     text-align: right;
 }
+.topbar-custom {
+    font-size: 14px;
+}
+
+.topbar-wrapper {
+    min-height: 45px;
+}
+
+@media (max-width: 768px) {
+
+    .topbar-wrapper {
+        flex-wrap: nowrap !important;
+        overflow-x: auto;
+    }
+
+    .topbar-left span,
+    .topbar-right span {
+        font-size: 12px;
+    }
+
+    .topbar-left i,
+    .topbar-right i {
+        font-size: 12px;
+    }
+
+    .lang-switch button {
+        font-size: 11px;
+        padding: 2px 6px;
+    }
+}
