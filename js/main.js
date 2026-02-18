@@ -623,20 +623,10 @@
 
     window.setLang = function(lang) {
 
-        const elements = document.querySelectorAll("[data-lang]");
-
-        elements.forEach(el => {
-            el.classList.add("lang-transition");
+        document.querySelectorAll("[data-lang]").forEach(el => {
+            const key = el.getAttribute("data-lang");
+            el.textContent = translations[lang][key];
         });
-
-        setTimeout(() => {
-            elements.forEach(el => {
-                const key = el.getAttribute("data-lang");
-                el.textContent = translations[lang][key];
-                el.classList.remove("lang-transition");
-                el.classList.add("lang-show");
-            });
-        }, 150);
 
         document.querySelectorAll("[data-lang-placeholder]").forEach(el => {
             const key = el.getAttribute("data-lang-placeholder");
