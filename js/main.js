@@ -305,6 +305,30 @@
             placeholder_email: "Your Email",
             placeholder_subject: "Project Type",
             placeholder_message: "Project Details",
+            projects_page_title: "Projects",
+            nav_home: "Home",
+            nav_pages: "Pages",
+            nav_projects: "Projects",
+            projects_small: "Our Projects",
+            projects_title: "See What We Have Completed Recently",
+
+            project1_title: "Luxury Residential Villa Construction",
+            project1_desc: "High-end residential villa built with premium materials and modern architectural standards.",
+
+            project2_title: "Commercial Building Project",
+            project2_desc: "Complete structural and finishing works for a multi-story commercial building.",
+
+            project3_title: "Full Interior Finishing Works",
+            project3_desc: "Premium interior finishing including gypsum, flooring, lighting, and paint solutions.",
+
+            project4_title: "Office Fit-Out & Renovation",
+            project4_desc: "Modern office renovation with customized layouts and high-quality finishing standards.",
+
+            project5_title: "Concrete & Structural Works",
+            project5_desc: "Reinforced concrete and structural framework construction for large-scale developments.",
+
+            project6_title: "Exterior Facade & Finishing Project",
+            project6_desc: "Advanced exterior facade solutions with weather-resistant and aesthetic materials."
 
 
         },
@@ -597,6 +621,30 @@
             placeholder_email: "البريد الإلكتروني",
             placeholder_subject: "نوع المشروع",
             placeholder_message: "تفاصيل المشروع",
+            projects_page_title: "المشروعات",
+            nav_home: "الرئيسية",
+            nav_pages: "الصفحات",
+            nav_projects: "المشروعات",
+            projects_small: "مشروعاتنا",
+            projects_title: "شاهد ما قمنا بتنفيذه مؤخرًا",
+
+            project1_title: "تنفيذ فيلا سكنية فاخرة",
+            project1_desc: "فيلا سكنية عالية المستوى تم تنفيذها بأفضل الخامات ووفق أحدث المعايير المعمارية.",
+
+            project2_title: "مشروع مبنى تجاري",
+            project2_desc: "تنفيذ الأعمال الإنشائية والتشطيبات الكاملة لمبنى تجاري متعدد الطوابق.",
+
+            project3_title: "أعمال تشطيبات داخلية كاملة",
+            project3_desc: "تشطيبات داخلية مميزة تشمل الجبس، الأرضيات، الإضاءة، وأعمال الدهانات.",
+
+            project4_title: "تجهيز وتجديد مكاتب",
+            project4_desc: "تجديد مكاتب عصرية بتصميمات مخصصة وتشطيبات عالية الجودة.",
+
+            project5_title: "أعمال خرسانية وإنشائية",
+            project5_desc: "تنفيذ الهياكل الخرسانية المسلحة للمشروعات الكبرى.",
+
+            project6_title: "تشطيبات وواجهات خارجية",
+            project6_desc: "حلول واجهات خارجية متطورة بمواد مقاومة للعوامل الجوية وتصميمات عصرية."
 
 
         }
