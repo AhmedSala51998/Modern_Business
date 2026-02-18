@@ -40,40 +40,30 @@
 
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark topbar-custom">
-        <div class="container-fluid px-3">
-            <div class="d-flex justify-content-between align-items-center flex-nowrap topbar-wrapper">
+    <div class="topbar">
+        <div class="container-fluid">
+            <div class="topbar-inner">
 
-                <!-- Left -->
-                <div class="d-flex align-items-center text-white topbar-left">
-                    <span class="me-2 small" data-lang="follow">Follow Us:</span>
-
-                    <a class="text-light me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="text-light me-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="text-light me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="text-light" href="#"><i class="fab fa-instagram"></i></a>
+                <!-- Social -->
+                <div class="topbar-social">
+                    <span data-lang="follow">تابعنا:</span>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
 
-                <!-- Right -->
-                <div class="d-flex align-items-center text-white topbar-right">
+                <!-- Contact -->
+                <div class="topbar-contact">
+                    <a href="tel:+966555366665" class="phone-link">
+                        <i class="fa fa-phone-alt"></i>
+                        +966555366665
+                    </a>
 
-                    <i class="fa fa-phone-alt me-2 small"></i>
-                    <span class="small me-2" data-lang="call">Call Us:</span>
-                    <span class="small fw-bold me-3">+966555366665</span>
-
-                    <!-- Language -->
-                    <div class="lang-switch d-flex">
-                        <button onclick="setLang('en')" id="btn-en"
-                            class="btn btn-sm btn-outline-light me-1 px-2 py-0">
-                            EN
-                        </button>
-
-                        <button onclick="setLang('ar')" id="btn-ar"
-                            class="btn btn-sm btn-outline-light px-2 py-0">
-                            AR
-                        </button>
+                    <div class="lang-switch">
+                        <button onclick="setLang('ar')" id="btn-ar">AR</button>
+                        <button onclick="setLang('en')" id="btn-en">EN</button>
                     </div>
-
                 </div>
 
             </div>
