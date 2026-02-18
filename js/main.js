@@ -266,7 +266,41 @@
             gallery_3: "Interior Finishing Works",
             gallery_4: "Office Fit-Out & Renovation",
             gallery_5: "Concrete & Structural Works",
-            gallery_6: "Exterior Facade & Finishing"
+            gallery_6: "Exterior Facade & Finishing",
+            contact_page_title: "Contact",
+            nav_home: "Home",
+            nav_pages: "Pages",
+            nav_contact: "Contact",
+
+            contact_call_title: "Call Our Team",
+            contact_call_btn: "Call Now",
+
+            contact_email_title: "Email Us",
+            contact_email_btn: "Send Email",
+
+            contact_company_title: "Our Company",
+            contact_address: "Othman Ibn Afaan Street,\nAl-Rabawa Dist, Yanbu",
+            contact_location_btn: "View Location",
+
+            contact_form_title: "Request a Construction Consultation",
+            contact_form_desc: "We specialize in construction, contracting, and interior finishing works. Contact us today to discuss your project requirements.",
+
+            placeholder_name: "Your Name",
+            placeholder_email: "Your Email",
+            placeholder_subject: "Project Type",
+            placeholder_message: "Project Details",
+
+            contact_submit_btn: "Send Request",   
+            enter_name: "Please enter your name",
+            enter_email: "Please enter your email",
+            invalid_email: "Invalid email format",
+            enter_subject: "Please enter project type",
+            enter_message: "Please enter project details",
+
+            success_title: "Success",
+            error_title: "Error",
+            oops_title: "Oops...",
+            general_error: "Something went wrong. Please try again."
 
 
         },
@@ -520,7 +554,41 @@
             gallery_3: "أعمال التشطيبات الداخلية",
             gallery_4: "تجهيز وتجديد المكاتب",
             gallery_5: "أعمال الخرسانة والإنشاءات",
-            gallery_6: "الواجهات الخارجية والتشطيبات"
+            gallery_6: "الواجهات الخارجية والتشطيبات",
+            contact_page_title: "اتصل بنا",
+            nav_home: "الرئيسية",
+            nav_pages: "الصفحات",
+            nav_contact: "اتصل بنا",
+
+            contact_call_title: "اتصل بفريقنا",
+            contact_call_btn: "اتصل الآن",
+
+            contact_email_title: "راسلنا",
+            contact_email_btn: "إرسال بريد",
+
+            contact_company_title: "شركتنا",
+            contact_address: "شارع عثمان بن عفان،\nحي الربوة، ينبع",
+            contact_location_btn: "عرض الموقع",
+
+            contact_form_title: "طلب استشارة مقاولات",
+            contact_form_desc: "نحن متخصصون في أعمال البناء والمقاولات والتشطيبات الداخلية. تواصل معنا اليوم لمناقشة متطلبات مشروعك.",
+
+            placeholder_name: "اسمك",
+            placeholder_email: "بريدك الإلكتروني",
+            placeholder_subject: "نوع المشروع",
+            placeholder_message: "تفاصيل المشروع",
+
+            contact_submit_btn: "إرسال الطلب",
+            enter_name: "من فضلك أدخل اسمك",
+            enter_email: "من فضلك أدخل بريدك الإلكتروني",
+            invalid_email: "صيغة البريد الإلكتروني غير صحيحة",
+            enter_subject: "من فضلك أدخل نوع المشروع",
+            enter_message: "من فضلك أدخل تفاصيل المشروع",
+
+            success_title: "تم بنجاح",
+            error_title: "خطأ",
+            oops_title: "حدث خطأ",
+            general_error: "حدث خطأ ما، حاول مرة أخرى."
 
 
         }

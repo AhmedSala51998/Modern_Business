@@ -12,6 +12,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $mail = new PHPMailer(true);
 
+    $lang = $_POST['lang'] ?? 'en';
+
     try {
 
         // SMTP Settings
@@ -27,50 +29,98 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->setFrom($_POST['email'], htmlspecialchars($_POST['name']));
         $mail->addAddress('info@modrnbusines.com', 'Modern Business');
 
-        $mail->Subject = 'New Construction Consultation Request';
-
         // Logo
         $logoUrl = 'https://modrnbusines.com/img/logo.png';
 
-        // Email Body
+        /* ==============================
+           LANGUAGE SWITCH
+        ============================== */
+
+        if($lang === 'ar'){
+
+            $mail->Subject = 'طلب استشارة مقاولات جديد';
+
+            $dir = 'rtl';
+            $align = 'right';
+
+            $title = 'استفسار مشروع جديد';
+            $receivedText = 'تم استلام طلب جديد من نموذج التواصل في موقعك.';
+            $clientName = 'اسم العميل';
+            $emailText = 'البريد الإلكتروني';
+            $projectType = 'نوع المشروع';
+            $projectDetails = 'تفاصيل المشروع';
+            $sentOn = 'تم الإرسال بتاريخ';
+            $companyText = 'مودرن بيزنس - مقاولات وإنشاءات';
+
+            $successMessage = 'تم إرسال طلبك بنجاح!';
+            $invalidMethod = 'طريقة الطلب غير صحيحة';
+
+        } else {
+
+            $mail->Subject = 'New Construction Consultation Request';
+
+            $dir = 'ltr';
+            $align = 'left';
+
+            $title = 'New Project Inquiry';
+            $receivedText = 'You have received a new request from your website contact form.';
+            $clientName = 'Client Name';
+            $emailText = 'Email';
+            $projectType = 'Project Type';
+            $projectDetails = 'Project Details';
+            $sentOn = 'Sent on';
+            $companyText = 'Modern Business - Construction & Contracting';
+
+            $successMessage = 'Your request has been sent successfully!';
+            $invalidMethod = 'Invalid request method';
+        }
+
+        /* ==============================
+           EMAIL BODY
+        ============================== */
+
         $body = '
-        <div style="background:#f4f4f7;padding:40px 0;font-family:Arial,sans-serif;">
+        <div dir="'.$dir.'" style="background:#f4f4f7;padding:40px 0;font-family:Arial,sans-serif;text-align:'.$align.';">
           <table align="center" width="100%" cellpadding="0" cellspacing="0"
                  style="max-width:600px;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.07);">
 
             <tr>
               <td style="padding:30px;text-align:center;">
                 <img src="'.$logoUrl.'" style="width:180px;margin-bottom:20px;">
-                <h2 style="margin:0;color:#333;">New Project Inquiry</h2>
+                <h2 style="margin:0;color:#333;">'.$title.'</h2>
               </td>
             </tr>
 
             <tr>
               <td style="padding:20px 40px;">
+
                 <p style="font-size:16px;color:#444;">
-                  You have received a new request from your website contact form.
+                  '.$receivedText.'
                 </p>
 
                 <hr>
 
-                <p><strong>Client Name:</strong> '.htmlspecialchars($_POST['name']).'</p>
-                <p><strong>Email:</strong> 
+                <p><strong>'.$clientName.':</strong> '.htmlspecialchars($_POST['name']).'</p>
+
+                <p><strong>'.$emailText.':</strong> 
                    <a href="mailto:'.htmlspecialchars($_POST['email']).'">
                    '.htmlspecialchars($_POST['email']).'
                    </a>
                 </p>
-                <p><strong>Project Type:</strong> '.htmlspecialchars($_POST['subject']).'</p>
 
-                <p><strong>Project Details:</strong><br>
+                <p><strong>'.$projectType.':</strong> '.htmlspecialchars($_POST['subject']).'</p>
+
+                <p><strong>'.$projectDetails.':</strong><br>
                 '.nl2br(htmlspecialchars($_POST['message'])).'
                 </p>
 
                 <hr>
 
                 <p style="color:#777;font-size:14px;">
-                  Sent on '.date("Y-m-d H:i").' <br>
-                  Modern Business - Construction & Contracting
+                  '.$sentOn.' '.date("Y-m-d H:i").' <br>
+                  '.$companyText.'
                 </p>
+
               </td>
             </tr>
 
@@ -85,7 +135,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         echo json_encode([
             'status' => 'success',
-            'message' => 'Your request has been sent successfully!'
+            'message' => $successMessage
         ]);
 
     } catch (Exception $e) {
@@ -97,8 +147,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
 } else {
+
     echo json_encode([
         'status' => 'error',
-        'message' => 'Invalid request method'
+        'message' => $invalidMethod ?? 'Invalid request method'
     ]);
 }
