@@ -26,8 +26,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port       = 465;
 
         // From & To
-        $mail->setFrom('info@modrnbusines.com', 'Modern Business');
-        $mail->addReplyTo($_POST['email'], htmlspecialchars($_POST['name']));
+        $mail->setFrom($_POST['email'], htmlspecialchars($_POST['name']));
+        $mail->addAddress('info@modrnbusines.com', 'Modern Business');
 
         // Logo
         $logoUrl = 'https://modrnbusines.com/img/logo.png';
