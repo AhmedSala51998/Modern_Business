@@ -1726,3 +1726,24 @@ html[dir="rtl"] .topbar-right .lang-switch {
     margin-left: 0;
     padding-right: 15px !important;
 }
+.lang-transition {
+    opacity: 0;
+    transform: translateY(5px);
+    transition: all 0.25s ease;
+}
+
+.lang-show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.lang-switch button {
+    transition: all 0.3s ease;
+}
+
+.lang-switch .active-lang {
+    background: #ff6b00;
+    color: #fff;
+    border-color: #ff6b00;
+    transform: scale(1.05);
+}
