@@ -300,7 +300,11 @@
             success_title: "Success",
             error_title: "Error",
             oops_title: "Oops...",
-            general_error: "Something went wrong. Please try again."
+            general_error: "Something went wrong. Please try again.",
+            placeholder_name: "Your Name",
+            placeholder_email: "Your Email",
+            placeholder_subject: "Project Type",
+            placeholder_message: "Project Details",
 
 
         },
@@ -588,7 +592,11 @@
             success_title: "تم بنجاح",
             error_title: "خطأ",
             oops_title: "حدث خطأ",
-            general_error: "حدث خطأ ما، حاول مرة أخرى."
+            general_error: "حدث خطأ ما، حاول مرة أخرى.",
+            placeholder_name: "الاسم الكامل",
+            placeholder_email: "البريد الإلكتروني",
+            placeholder_subject: "نوع المشروع",
+            placeholder_message: "تفاصيل المشروع",
 
 
         }
@@ -599,6 +607,13 @@
         document.querySelectorAll("[data-lang]").forEach(el => {
             const key = el.getAttribute("data-lang");
             el.textContent = translations[lang][key];
+        });
+
+        document.querySelectorAll("[data-lang-placeholder]").forEach(el => {
+            const key = el.getAttribute("data-lang-placeholder");
+            if (translations[lang][key]) {
+                el.setAttribute("placeholder", translations[lang][key]);
+            }
         });
 
         if(lang === "ar"){
