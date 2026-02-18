@@ -41,72 +41,126 @@
 
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-0">
-        <div class="row g-0 d-none d-lg-flex">
+        <div class="row g-0">
+            
+            <!-- Left Side -->
             <div class="col-lg-6 ps-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center text-white">
-                    <span>Follow Us:</span>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+                    <span data-lang="follow">Follow Us:</span>
+                    <a class="btn btn-link text-light" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-link text-light" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-link text-light" href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
+
+            <!-- Right Side -->
             <div class="col-lg-6 text-end">
                 <div class="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
-                    <span class="fs-5 fw-bold me-2"><i class="fa fa-phone-alt me-2"></i>Call Us:</span>
-                    <span class="fs-5 fw-bold">+966555366665</span>
+
+                    <span class="fs-5 fw-bold me-3">
+                        <i class="fa fa-phone-alt me-2"></i>
+                        <span data-lang="call">Call Us:</span>
+                    </span>
+
+                    <span class="fs-5 fw-bold me-4">+966555366665</span>
+
+                    <!-- Language Switch -->
+                    <div class="lang-switch">
+                        <button onclick="setLang('en')" id="btn-en"
+                            class="btn btn-sm btn-outline-light me-2">
+                            EN
+                        </button>
+
+                        <button onclick="setLang('ar')" id="btn-ar"
+                            class="btn btn-sm btn-outline-light">
+                            AR
+                        </button>
+                    </div>
+
                 </div>
             </div>
+
         </div>
     </div>
     <!-- Topbar End -->
 
 
     <!-- Navbar Start -->
+    <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
         <a href="/" class="navbar-brand ps-5 me-0">
-            <h1 class="text-white m-0"><img src="img/logo.png" class="logo"> Modern Business</h1>
+            <h1 class="text-white m-0">
+                <img src="img/logo.png" class="logo">
+                <span data-lang="brand">Modern Business</span>
+            </h1>
         </a>
+
         <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="/" class="nav-item nav-link">Home</a>
-                <a href="about" class="nav-item nav-link">About</a>
-                <a href="service" class="nav-item nav-link">Services</a>
+
+                <a href="/" class="nav-item nav-link" data-lang="nav_home">Home</a>
+                <a href="about" class="nav-item nav-link" data-lang="nav_about">About</a>
+                <a href="service" class="nav-item nav-link" data-lang="nav_services">Services</a>
+
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-lang="nav_pages">
+                        Pages
+                    </a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="project" class="dropdown-item">Projects</a>
-                        <a href="feature" class="dropdown-item">Features</a>
-                        <a href="team" class="dropdown-item">Our Team</a>
-                        <a href="testimonial" class="dropdown-item">Testimonial</a>
+                        <a href="project" class="dropdown-item" data-lang="nav_projects">Projects</a>
+                        <a href="feature" class="dropdown-item" data-lang="nav_features">Features</a>
+                        <a href="team" class="dropdown-item" data-lang="nav_team">Our Team</a>
+                        <a href="testimonial" class="dropdown-item" data-lang="nav_testimonial">Testimonial</a>
                     </div>
                 </div>
-                <a href="blogs" class="nav-item nav-link">Blogs</a>
-                <a href="contact" class="nav-item nav-link active">Contact</a>
+
+                <a href="blogs" class="nav-item nav-link" data-lang="nav_blogs">Blogs</a>
+                <a href="contact" class="nav-item nav-link active" data-lang="nav_contact">Contact</a>
+
             </div>
-            <a href="project" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
+
+            <a href="contact" class="btn btn-primary px-3 d-none d-lg-block" data-lang="nav_quote">
+                Get A Quote
+            </a>
         </div>
     </nav>
     <!-- Navbar End -->
-
+    <!-- Navbar End -->
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text-white animated slideInRight">Contact</h1>
+
+            <h1 class="display-3 text-white animated slideInRight"
+                data-lang="contact_page_title"></h1>
+
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contact</li>
+
+                    <li class="breadcrumb-item">
+                        <a href="/" data-lang="nav_home"></a>
+                    </li>
+
+                    <li class="breadcrumb-item">
+                        <a href="#" data-lang="nav_pages"></a>
+                    </li>
+
+                    <li class="breadcrumb-item active"
+                        aria-current="page"
+                        data-lang="nav_contact"></li>
+
                 </ol>
             </nav>
+
         </div>
     </div>
     <!-- Page Header End -->
+
 
     <!-- Contact Start -->
     <div class="container-xxl py-5">
@@ -118,112 +172,135 @@
                 <!-- Phone -->
                 <div class="col-lg-4 col-md-6">
                     <div class="bg-light text-center h-100 p-5 shadow-sm rounded">
+
                         <div class="btn-square bg-white rounded-circle mx-auto mb-4 d-flex align-items-center justify-content-center"
                             style="width: 90px; height: 90px;">
                             <i class="fa fa-phone-alt fa-2x text-primary"></i>
                         </div>
-                        <h4 class="mb-3">Call Our Team</h4>
+
+                        <h4 class="mb-3" data-lang="contact_call_title"></h4>
+
                         <p class="mb-2">0555366665</p>
                         <p class="mb-4">0590073204</p>
-                        <a class="btn btn-primary px-4" href="tel:0555366665">
-                            Call Now <i class="fa fa-arrow-right ms-2"></i>
+
+                        <a class="btn btn-primary px-4"
+                        href="tel:0555366665"
+                        data-lang="contact_call_btn">
                         </a>
+
                     </div>
                 </div>
 
                 <!-- Email -->
                 <div class="col-lg-4 col-md-6">
                     <div class="bg-light text-center h-100 p-5 shadow-sm rounded">
+
                         <div class="btn-square bg-white rounded-circle mx-auto mb-4 d-flex align-items-center justify-content-center"
                             style="width: 90px; height: 90px;">
                             <i class="fa fa-envelope-open fa-2x text-primary"></i>
                         </div>
-                        <h4 class="mb-3">Email Us</h4>
+
+                        <h4 class="mb-3" data-lang="contact_email_title"></h4>
+
                         <p class="mb-4">info@modrnbusines.com</p>
-                        <a class="btn btn-primary px-4" href="mailto:info@modrnbusines.com">
-                            Send Email <i class="fa fa-arrow-right ms-2"></i>
+
+                        <a class="btn btn-primary px-4"
+                        href="mailto:info@modrnbusines.com"
+                        data-lang="contact_email_btn">
                         </a>
+
                     </div>
                 </div>
 
                 <!-- Location -->
                 <div class="col-lg-4 col-md-6">
                     <div class="bg-light text-center h-100 p-5 shadow-sm rounded">
+
                         <div class="btn-square bg-white rounded-circle mx-auto mb-4 d-flex align-items-center justify-content-center"
                             style="width: 90px; height: 90px;">
                             <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
                         </div>
-                        <h4 class="mb-3">Our Company</h4>
-                        <p class="mb-4">
-                            Othman Ibn Afaan Street,<br>
-                            Al-Rabawa Dist, Yanbu
-                        </p>
+
+                        <h4 class="mb-3" data-lang="contact_location_title"></h4>
+
+                        <p class="mb-4" data-lang="contact_address"></p>
+
                         <a class="btn btn-primary px-4"
                         href="https://maps.app.goo.gl/xQv8vUDLMvGEMgpU8?g_st=iw"
-                        target="_blank">
-                            View Location <i class="fa fa-arrow-right ms-2"></i>
+                        target="_blank"
+                        data-lang="contact_location_btn">
                         </a>
+
                     </div>
                 </div>
 
             </div>
 
-            <!-- Map -->
-            <div class="row mb-5">
-                <div class="col-12">
-                    <iframe class="w-100 rounded shadow-sm"
-                            src="https://maps.google.com/maps?q=Othman%20Ibn%20Affan%20Street%20Yanbu&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                            style="min-height: 450px; border:0;"
-                            allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-
-            <!-- Contact Form -->
+            <!-- Contact Section -->
             <div class="row g-5">
 
                 <div class="col-lg-6">
-                    <h1 class="display-6 mb-4">Request a Construction Consultation</h1>
-                    <p class="mb-4">
-                        We specialize in construction, contracting, and interior finishing works.
-                        Contact us today to discuss your project requirements.
+
+                    <h1 class="display-6 mb-4"
+                        data-lang="contact_form_title">
+                    </h1>
+
+                    <p class="mb-4"
+                    data-lang="contact_form_desc">
                     </p>
+
                 </div>
 
                 <div class="col-lg-6">
                     <form id="contactForm" method="POST">
+
                         <div class="row g-3">
 
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                                <input type="text"
+                                    class="form-control"
+                                    name="name"
+                                    id="name"
+                                    data-lang-placeholder="contact_placeholder_name">
                                 <small class="text-danger error-name"></small>
                             </div>
 
                             <div class="col-md-6">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+                                <input type="email"
+                                    class="form-control"
+                                    name="email"
+                                    id="email"
+                                    data-lang-placeholder="contact_placeholder_email">
                                 <small class="text-danger error-email"></small>
                             </div>
 
                             <div class="col-12">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Project Type">
+                                <input type="text"
+                                    class="form-control"
+                                    name="subject"
+                                    id="subject"
+                                    data-lang-placeholder="contact_placeholder_subject">
                                 <small class="text-danger error-subject"></small>
                             </div>
 
                             <div class="col-12">
-                                <textarea class="form-control" name="message" id="message"
-                                        placeholder="Project Details"
-                                        style="height: 150px"></textarea>
+                                <textarea class="form-control"
+                                        name="message"
+                                        id="message"
+                                        style="height: 150px"
+                                        data-lang-placeholder="contact_placeholder_message"></textarea>
                                 <small class="text-danger error-message"></small>
                             </div>
 
                             <div class="col-12">
                                 <button class="btn btn-primary py-3 px-5 w-100"
-                                        type="submit">
-                                    Send Request
+                                        type="submit"
+                                        data-lang="contact_submit_btn">
                                 </button>
                             </div>
 
                         </div>
+
                     </form>
                 </div>
 
@@ -237,12 +314,34 @@
     <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
+
+                <!-- Column 1 -->
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4"><img src="img/logo.png" class="logo"> Modern Business</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Othman Ibn Afaan Street, Al-Rabawa Dist, Yanbu</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+966555366665</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+966590073204</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@modrnbusines.com</p>
+                    <h5 class="text-white mb-4">
+                        <img src="img/logo.png" class="logo">
+                        <span data-lang="brand"></span>
+                    </h5>
+
+                    <p class="mb-2">
+                        <i class="fa fa-map-marker-alt me-3"></i>
+                        <span data-lang="footer_address"></span>
+                    </p>
+
+                    <p class="mb-2">
+                        <i class="fa fa-phone-alt me-3"></i>
+                        +966555366665
+                    </p>
+
+                    <p class="mb-2">
+                        <i class="fa fa-phone-alt me-3"></i>
+                        +966590073204
+                    </p>
+
+                    <p class="mb-2">
+                        <i class="fa fa-envelope me-3"></i>
+                        info@modrnbusines.com
+                    </p>
+
                     <div class="d-flex pt-3">
                         <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
@@ -250,49 +349,68 @@
                         <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
+
+                <!-- Column 2 -->
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="about">About Us</a>
-                    <a class="btn btn-link" href="contact">Contact Us</a>
-                    <a class="btn btn-link" href="service">Our Services</a>
-                    <a class="btn btn-link" href="project">Our Projects</a>
-                    <a class="btn btn-link" href="feature">Our Features</a>
+                    <h5 class="text-white mb-4" data-lang="footer_quick"></h5>
+
+                    <a class="btn btn-link" href="about" data-lang="nav_about"></a>
+                    <a class="btn btn-link" href="contact" data-lang="nav_contact"></a>
+                    <a class="btn btn-link" href="service" data-lang="nav_services"></a>
+                    <a class="btn btn-link" href="project" data-lang="nav_projects"></a>
+                    <a class="btn btn-link" href="feature" data-lang="nav_features"></a>
                 </div>
+
+                <!-- Column 3 -->
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Business Hours</h5>
-                    <p class="mb-1">Saturday - Thursday</p>
-                    <h6 class="text-light">08:00 am - 04:00 pm</h6>
-                    <p class="mb-1">Friday</p>
-                    <h6 class="text-light">Closed</h6>
+                    <h5 class="text-white mb-4" data-lang="footer_hours"></h5>
+
+                    <p class="mb-1" data-lang="footer_days"></p>
+                    <h6 class="text-light" data-lang="footer_time"></h6>
+
+                    <p class="mb-1" data-lang="footer_friday"></p>
+                    <h6 class="text-light" data-lang="footer_closed"></h6>
                 </div>
+
+                <!-- Column 4 -->
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Need Assistance?</h5>
-                    <p>
-                        We do not offer account registration at the moment. 
-                        If you face any issues or have inquiries regarding our services, 
-                        please feel free to contact us and our team will be happy to assist you.
-                    </p>
+                    <h5 class="text-white mb-4" data-lang="footer_help"></h5>
+
+                    <p data-lang="footer_help_desc"></p>
+
                     <div class="position-relative w-100">
-                        <a href="contact.html" class="btn btn-primary py-2 px-4">
-                            Contact Us
-                        </a>
+                        <a href="contact" class="btn btn-primary py-2 px-4"
+                        data-lang="nav_contact"></a>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
+    <!-- Copyright -->
     <div class="container-fluid copyright bg-dark py-4">
         <div class="container text-center">
-            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="https://modrnbusines.com/">Modern Business</a>, All Right Reserved.</p>
-            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://sweepicode.com/">Sweepicode Company</a></p>
+
+            <p class="mb-2">
+                <span data-lang="footer_copy"></span>
+                <a class="fw-semi-bold" href="https://modrnbusines.com/">
+                    Modern Business
+                </a>,
+                <span data-lang="footer_rights"></span>
+            </p>
+
+            <p class="mb-0">
+                <span data-lang="footer_design"></span>
+                <a class="fw-semi-bold" href="https://sweepicode.com/">
+                    Sweepicode Company
+                </a>
+            </p>
+
         </div>
     </div>
-    <!-- Copyright End -->
 
 
     <!-- Back to Top -->

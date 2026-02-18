@@ -72,6 +72,202 @@
 
             email_us: "Email us",
             call_us: "Call us",
+            fact_1: "Years Experience",
+            fact_2: "Team Members",
+            fact_3: "Happy Clients",
+            fact_4: "Projects Done",
+            why_choose: "Why Choose Us",
+            why_title: "Why Clients Trust Our Construction & Finishing Services",
+            why_desc: "We are committed to delivering high-quality construction and finishing solutions across the Kingdom of Saudi Arabia. Our team combines technical expertise, modern equipment, and strict safety standards to ensure every project is completed on time and within budget.",
+
+            feature_1_title: "Skilled & Experienced Team",
+            feature_1_desc: "Our engineers, supervisors, and technicians have extensive experience in residential, commercial, and industrial construction projects.",
+
+            feature_2_title: "High-Quality Materials & Finishing",
+            feature_2_desc: "We use premium materials and advanced construction methods to deliver durable structures and high-end interior and exterior finishes.",
+
+            feature_3_title: "On-Time Project Delivery",
+            feature_3_desc: "We follow strict project management standards to ensure timely delivery while maintaining safety, quality, and cost efficiency.",
+            services_small: "Our Services",
+            services_title: "Comprehensive Construction & Finishing Solutions",
+
+            srv_1_title: "Building Construction",
+            srv_1_desc: "We specialize in residential, commercial, and industrial building construction, delivering high-quality structural works in compliance with Saudi building standards.",
+
+            srv_2_title: "Interior & Exterior Finishing",
+            srv_2_desc: "Professional finishing services including plastering, painting, flooring, gypsum works, facades, and complete turnkey finishing solutions.",
+
+            srv_3_title: "Renovation & Project Management",
+            srv_3_desc: "We provide renovation, remodeling, and full project management services, ensuring efficient planning, supervision, and on-time project delivery.",
+
+            read_more: "Read More",
+            projects_small: "Our Projects",
+            projects_title: "Explore Our Recently Completed Projects",
+
+            project_1: "Luxury Residential Villa Construction",
+            project_2: "Commercial Building Project",
+            project_3: "Full Interior Finishing Works",
+            project_4: "Office Fit-Out & Renovation",
+            project_5: "Concrete & Structural Works",
+            project_6: "Exterior Facade & Finishing Project",
+            team_small: "Our Team",
+            team_title: "Dedicated Team Members",
+
+            team_role_1: "Operations Manager",
+            team_role_2: "Admin. Manager",
+            team_role_3: "H.R Manager",
+            team_name:   "Mr / Ahmad Khataam",
+            testimonials_small: "Testimonials",
+            testimonials_title: "What Our Clients Say",
+
+            testi_1_desc: "The company delivered our residential villa project with outstanding quality and professionalism. The work was completed on time and exceeded our expectations in both construction and finishing.",
+            testi_1_role: "Property Owner – Riyadh",
+
+            testi_2_desc: "Their team demonstrated excellent project management skills and strict adherence to safety and quality standards. We highly recommend them for commercial construction and interior finishing projects.",
+            testi_2_role: "Business Owner – Jeddah",
+
+            testi_3_desc: "From structural works to final finishing, the execution was flawless. The attention to detail and commitment to delivering on schedule truly set them apart in the Saudi construction market.",
+            testi_3_role: "Project Consultant – Dammam",
+            testi_1_name: "Mohammed Al-Harbi",
+            testi_2_name: "Abdullah Al-Qahtani",
+            testi_3_name: "Faisal Al-Nouri",
+            footer_address: "Othman Ibn Afaan Street, Al-Rabawa Dist, Yanbu",
+
+            footer_quick: "Quick Links",
+            footer_hours: "Business Hours",
+            footer_days: "Saturday - Thursday",
+            footer_time: "08:00 am - 04:00 pm",
+            footer_friday: "Friday",
+            footer_closed: "Closed",
+
+            footer_help: "Need Assistance?",
+            footer_help_desc: "We do not offer account registration at the moment. If you face any issues or have inquiries regarding our services, please feel free to contact us and our team will be happy to assist you.",
+
+            footer_copy: "Copyright ©",
+            footer_rights: "All Rights Reserved.",
+            footer_design: "Designed By",
+            nav_home: "Home",
+            nav_pages: "Pages",
+
+            error_title: "404 Error",
+            error_page_not_found: "Page Not Found",
+
+            error_description: "We’re sorry, the page you are looking for does not exist on our website. Please return to the home page.",
+
+            error_back_home: "Go Back To Home",
+            nav_home: "Home",
+            nav_pages: "Pages",
+
+            about_page_title: "About Us",
+            nav_home: "Home",
+            nav_blogs: "Blogs",
+            blog_details: "Blog Details",
+
+            blog_title_1: "Modern Villa Construction Trends in Saudi Arabia",
+
+            blog_date_1: "Jan 10, 2026",
+            blog_author: "Admin",
+
+            blog_intro_1: "The construction sector in Saudi Arabia is experiencing rapid transformation, especially in luxury residential projects.",
+
+            blog_paragraph_1: "Modern villas now incorporate sustainable materials, advanced insulation systems, and smart home technologies that improve efficiency and comfort. Clients are increasingly demanding high-quality finishes and contemporary designs.",
+
+            blog_section_1_title: "Smart Home Systems",
+            blog_section_1_text: "Integration of lighting automation, surveillance systems, and energy-efficient climate control has become a standard requirement.",
+
+            blog_section_2_title: "Sustainable Construction Materials",
+            blog_section_2_text: "Developers are using eco-friendly materials that reduce long-term operational costs while meeting Saudi building regulations.",
+
+            blog_section_3_title: "Open Architectural Concepts",
+            blog_section_3_text: "Spacious interiors, natural lighting, and open layouts enhance the aesthetic and practical value of residential properties.",
+
+            blog_quote_1: "High-quality construction is not only about structure — it's about durability, design, and long-term value.",
+
+            blog_conclusion_1: "As Vision 2030 continues to drive urban development, construction companies must adopt innovative solutions to stay competitive in the evolving Saudi market.", 
+            blogs_page_title: "Construction Blogs",
+
+            nav_home: "Home",
+            nav_pages: "Pages",
+            nav_blogs: "Blogs",
+
+            blogs_section_subtitle: "Our Construction Blogs",
+            blogs_section_title: "Latest Construction Insights & News",
+
+            blog1_date: "Jan 10, 2026",
+            blog1_title: "Modern Villa Construction Trends in Saudi Arabia",
+            blog1_desc: "Discover the latest architectural styles and construction methods shaping luxury villas across the Kingdom.",
+
+            blog2_date: "Jan 05, 2026",
+            blog2_title: "Why Quality Finishing Matters in Commercial Projects",
+            blog2_desc: "Learn how premium finishing enhances durability, brand image, and long-term value.",
+
+            blog3_date: "Dec 28, 2025",
+            blog3_title: "Project Management Tips for Construction Success",
+            blog3_desc: "Effective planning, supervision, and scheduling strategies for large-scale projects.",
+
+            read_more: "Read More →",
+            contact_page_title: "Contact",
+
+            nav_home: "Home",
+            nav_pages: "Pages",
+            nav_contact: "Contact",
+
+            contact_call_title: "Call Our Team",
+            contact_call_btn: "Call Now →",
+
+            contact_email_title: "Email Us",
+            contact_email_btn: "Send Email →",
+
+            contact_location_title: "Our Company",
+            contact_location_btn: "View Location →",
+            contact_address: "Othman Ibn Afaan Street, Al-Rabawa Dist, Yanbu",
+
+            contact_form_title: "Request a Construction Consultation",
+            contact_form_desc: "We specialize in construction, contracting, and interior finishing works. Contact us today to discuss your project requirements.",
+
+            contact_placeholder_name: "Your Name",
+            contact_placeholder_email: "Your Email",
+            contact_placeholder_subject: "Project Type",
+            contact_placeholder_message: "Project Details",
+
+            contact_submit_btn: "Send Request", 
+            features_page_title: "Features",
+
+            nav_home: "Home",
+            nav_pages: "Pages",
+            nav_features: "Features",
+            projects_page_title: "Projects",
+            nav_home: "Home",
+            nav_projects: "Projects",
+            nav_project_details: "Project Details",
+            project_type: "Luxury Residential Villa",
+            project_overview_title: "Project Overview",
+            project_desc_1: "This luxury residential villa was constructed using premium materials and advanced engineering techniques. The project included structural works, finishing, smart systems integration, and exterior landscaping.",
+            project_desc_2: "Our team ensured high-quality execution while maintaining strict deadlines and safety standards. The villa features modern architectural concepts, energy-efficient systems, and elegant finishing.",
+            scope_title: "Scope of Work",
+            scope_1: "Structural Concrete Works",
+            scope_2: "Full Interior Finishing",
+            scope_3: "Smart Home Systems",
+            scope_4: "Exterior Facade & Landscaping",
+            project_info_title: "Project Information",
+            client_label: "Client:",
+            client_value: "Private Owner",
+            location_label: "Location:",
+            location_value: "Yanbu, KSA",
+            category_label: "Category:",
+            category_value: "Residential Construction",
+            duration_label: "Duration:",
+            duration_value: "8 Months",
+            status_label: "Status:",
+            status_value: "Completed",
+            gallery_title: "Project Gallery",
+            gallery_1: "Luxury Residential Villa",
+            gallery_2: "Commercial Building Project",
+            gallery_3: "Interior Finishing Works",
+            gallery_4: "Office Fit-Out & Renovation",
+            gallery_5: "Concrete & Structural Works",
+            gallery_6: "Exterior Facade & Finishing"
+
 
         },
 
@@ -130,6 +326,203 @@
 
             email_us: "راسلنا",
             call_us: "اتصل بنا",
+            fact_1: "سنوات الخبرة",
+            fact_2: "أعضاء الفريق",
+            fact_3: "عملاء سعداء",
+            fact_4: "مشاريع مكتملة",
+            why_choose: "لماذا تختارنا",
+            why_title: "لماذا يثق العملاء في خدمات البناء والتشطيبات لدينا",
+            why_desc: "نلتزم بتقديم حلول بناء وتشطيبات عالية الجودة في جميع أنحاء المملكة العربية السعودية. يجمع فريقنا بين الخبرة الفنية والمعدات الحديثة ومعايير السلامة الصارمة لضمان تنفيذ كل مشروع في الوقت المحدد وضمن الميزانية المحددة.",
+
+            feature_1_title: "فريق عمل محترف وذو خبرة",
+            feature_1_desc: "يتمتع مهندسونا ومشرفونا وفنيونا بخبرة واسعة في مشاريع البناء السكنية والتجارية والصناعية.",
+
+            feature_2_title: "مواد عالية الجودة وتشطيبات متميزة",
+            feature_2_desc: "نستخدم مواد ممتازة وأساليب بناء متقدمة لضمان هياكل متينة وتشطيبات داخلية وخارجية راقية.",
+
+            feature_3_title: "تسليم المشاريع في الوقت المحدد",
+            feature_3_desc: "نتبع معايير صارمة لإدارة المشاريع لضمان التسليم في الوقت المحدد مع الحفاظ على أعلى معايير الجودة والسلامة والكفاءة في التكاليف.",
+            services_small: "خدماتنا",
+            services_title: "حلول متكاملة للبناء والتشطيبات",
+
+            srv_1_title: "أعمال البناء والتشييد",
+            srv_1_desc: "نتخصص في تنفيذ مشاريع البناء السكنية والتجارية والصناعية، مع تقديم أعمال إنشائية عالية الجودة وفق معايير البناء المعتمدة في المملكة العربية السعودية.",
+
+            srv_2_title: "التشطيبات الداخلية والخارجية",
+            srv_2_desc: "نقدم خدمات تشطيب احترافية تشمل اللياسة، الدهانات، الأرضيات، أعمال الجبس، الواجهات، وحلول التشطيب المتكاملة تسليم مفتاح.",
+
+            srv_3_title: "الترميم وإدارة المشاريع",
+            srv_3_desc: "نوفر خدمات الترميم والتطوير وإدارة المشاريع بالكامل، مع ضمان التخطيط الفعال والإشراف الدقيق وتسليم المشاريع في الوقت المحدد.",
+
+            read_more: "اقرأ المزيد",
+            projects_small: "مشاريعنا",
+            projects_title: "استكشف أحدث مشاريعنا المنفذة",
+
+            project_1: "إنشاء فيلا سكنية فاخرة",
+            project_2: "مشروع مبنى تجاري",
+            project_3: "أعمال تشطيبات داخلية متكاملة",
+            project_4: "تجهيز مكاتب وأعمال ترميم",
+            project_5: "أعمال الخرسانة والهيكل الإنشائي",
+            project_6: "مشروع واجهات وتشطيبات خارجية",
+            team_small: "فريق العمل",
+            team_title: "أعضاء الفريق المتخصصون",
+
+            team_role_1: "مدير العمليات",
+            team_role_2: "مدير الشؤون الإدارية",
+            team_role_3: "مدير الموارد البشرية",
+            team_name:   "أ / أحمد ختم",
+            testimonials_small: "آراء العملاء",
+            testimonials_title: "ماذا يقول عملاؤنا",
+
+            testi_1_desc: "قامت الشركة بتنفيذ مشروع الفيلا السكنية الخاصة بنا بجودة واحترافية عالية. تم إنجاز العمل في الوقت المحدد وتجاوز توقعاتنا في أعمال البناء والتشطيبات.",
+            testi_1_role: "مالك عقار – الرياض",
+
+            testi_2_desc: "أظهر فريق العمل مهارات متميزة في إدارة المشاريع والالتزام الصارم بمعايير السلامة والجودة. نوصي بهم بشدة لمشاريع البناء التجارية وأعمال التشطيبات الداخلية.",
+            testi_2_role: "رجل أعمال – جدة",
+
+            testi_3_desc: "من الأعمال الإنشائية حتى التشطيبات النهائية، كان التنفيذ متقناً بكل تفاصيله. الالتزام بالمواعيد والدقة في العمل يميزهم في سوق البناء السعودي.",
+            testi_3_role: "استشاري مشاريع – الدمام",
+            testi_1_name: "محمد الحربي",
+            testi_2_name: "عبدالله القحطاني",
+            testi_3_name: "فيصل النوري",
+            footer_address: "شارع عثمان بن عفان، حي الربوة، ينبع",
+
+            footer_quick: "روابط سريعة",
+            footer_hours: "ساعات العمل",
+            footer_days: "السبت - الخميس",
+            footer_time: "08:00 صباحاً - 04:00 مساءً",
+            footer_friday: "الجمعة",
+            footer_closed: "مغلق",
+
+            footer_help: "هل تحتاج مساعدة؟",
+            footer_help_desc: "لا نوفر حالياً نظام تسجيل حسابات. إذا واجهت أي مشكلة أو كان لديك استفسار بخصوص خدماتنا، لا تتردد في التواصل معنا وسيسعد فريقنا بمساعدتك.",
+
+            footer_copy: "جميع الحقوق محفوظة ©",
+            footer_rights: "",
+            footer_design: "تصميم وتنفيذ",
+            nav_home: "الرئيسية",
+            nav_pages: "الصفحات",
+
+            error_title: "خطأ 404",
+            error_page_not_found: "الصفحة غير موجودة",
+
+            error_description: "عذراً، الصفحة التي تبحث عنها غير موجودة على موقعنا. يمكنك العودة إلى الصفحة الرئيسية.",
+
+            error_back_home: "العودة إلى الرئيسية",
+            nav_home: "الرئيسية",
+            nav_pages: "الصفحات",
+
+            about_page_title: "من نحن",
+            nav_home: "الرئيسية",
+            nav_blogs: "المدونة",
+            blog_details: "تفاصيل المقال",
+
+            blog_title_1: "أحدث اتجاهات بناء الفلل الحديثة في المملكة العربية السعودية",
+
+            blog_date_1: "10 يناير 2026",
+            blog_author: "الإدارة",
+
+            blog_intro_1: "يشهد قطاع البناء في المملكة العربية السعودية تحولاً سريعاً، خاصة في مشاريع الإسكان الفاخر.",
+
+            blog_paragraph_1: "أصبحت الفلل الحديثة تعتمد على مواد مستدامة، وأنظمة عزل متقدمة، وتقنيات المنازل الذكية التي تعزز الكفاءة والراحة. كما يزداد طلب العملاء على التشطيبات عالية الجودة والتصاميم العصرية.",
+
+            blog_section_1_title: "أنظمة المنازل الذكية",
+            blog_section_1_text: "أصبح دمج أنظمة التحكم في الإضاءة، وأنظمة المراقبة، وأنظمة التكييف الموفرة للطاقة مطلباً أساسياً في المشاريع الحديثة.",
+
+            blog_section_2_title: "مواد البناء المستدامة",
+            blog_section_2_text: "يتجه المطورون لاستخدام مواد صديقة للبيئة تقلل من تكاليف التشغيل على المدى الطويل مع الالتزام بأنظمة البناء في المملكة.",
+
+            blog_section_3_title: "التصاميم المعمارية المفتوحة",
+            blog_section_3_text: "توفر المساحات الواسعة والإضاءة الطبيعية والمخططات المفتوحة قيمة جمالية وعملية أكبر للعقارات السكنية.",
+
+            blog_quote_1: "الجودة في البناء لا تتعلق بالهيكل فقط — بل بالمتانة والتصميم والقيمة طويلة المدى.",
+
+            blog_conclusion_1: "مع استمرار رؤية 2030 في دفع عجلة التنمية العمرانية، يجب على شركات البناء تبني حلول مبتكرة للحفاظ على قدرتها التنافسية في السوق السعودي المتطور.",
+            blogs_page_title: "مدونة البناء",
+
+            nav_home: "الرئيسية",
+            nav_pages: "الصفحات",
+            nav_blogs: "المدونة",
+
+            blogs_section_subtitle: "مدونة أعمالنا في قطاع البناء",
+            blogs_section_title: "أحدث أخبار ورؤى قطاع البناء",
+
+            blog1_date: "10 يناير 2026",
+            blog1_title: "أحدث اتجاهات بناء الفلل الحديثة في المملكة العربية السعودية",
+            blog1_desc: "اكتشف أحدث الأساليب المعمارية وطرق البناء التي تشكل الفلل الفاخرة في المملكة.",
+
+            blog2_date: "05 يناير 2026",
+            blog2_title: "لماذا تعتبر جودة التشطيب مهمة في المشاريع التجارية",
+            blog2_desc: "تعرف على كيف تعزز التشطيبات عالية الجودة المتانة وصورة العلامة التجارية والقيمة طويلة المدى.",
+
+            blog3_date: "28 ديسمبر 2025",
+            blog3_title: "نصائح لإدارة المشاريع لتحقيق نجاح في قطاع البناء",
+            blog3_desc: "استراتيجيات فعالة للتخطيط والإشراف والجدولة في المشاريع الكبيرة.",
+
+            read_more: "اقرأ المزيد ←",
+            contact_page_title: "اتصل بنا",
+
+            nav_home: "الرئيسية",
+            nav_pages: "الصفحات",
+            nav_contact: "اتصل بنا",
+
+            contact_call_title: "اتصل بفريقنا",
+            contact_call_btn: "اتصل الآن ←",
+
+            contact_email_title: "راسلنا عبر البريد",
+            contact_email_btn: "إرسال بريد ←",
+
+            contact_location_title: "مقر الشركة",
+            contact_location_btn: "عرض الموقع ←",
+            contact_address: "شارع عثمان بن عفان، حي الربوة، ينبع",
+
+            contact_form_title: "طلب استشارة في مجال البناء",
+            contact_form_desc: "نحن متخصصون في أعمال البناء والمقاولات والتشطيبات الداخلية. تواصل معنا اليوم لمناقشة متطلبات مشروعك.",
+
+            contact_placeholder_name: "الاسم الكامل",
+            contact_placeholder_email: "البريد الإلكتروني",
+            contact_placeholder_subject: "نوع المشروع",
+            contact_placeholder_message: "تفاصيل المشروع",
+
+            contact_submit_btn: "إرسال الطلب",
+            features_page_title: "مميزاتنا",
+
+            nav_home: "الرئيسية",
+            nav_pages: "الصفحات",
+            nav_features: "المميزات",
+            projects_page_title: "المشاريع",
+            nav_home: "الرئيسية",
+            nav_projects: "المشاريع",
+            nav_project_details: "تفاصيل المشروع",
+            project_type: "فيلا سكنية فاخرة",
+            project_overview_title: "نظرة عامة على المشروع",
+            project_desc_1: "تم تنفيذ هذه الفيلا السكنية الفاخرة باستخدام مواد عالية الجودة وتقنيات هندسية متقدمة. شمل المشروع الأعمال الإنشائية، التشطيبات، أنظمة المنزل الذكي، وتنسيق الموقع الخارجي.",
+            project_desc_2: "حرص فريقنا على تنفيذ العمل بأعلى جودة مع الالتزام بالمواعيد النهائية ومعايير السلامة. تتميز الفيلا بتصميم معماري حديث وأنظمة موفرة للطاقة وتشطيبات أنيقة.",
+            scope_title: "نطاق العمل",
+            scope_1: "أعمال الخرسانة الإنشائية",
+            scope_2: "التشطيبات الداخلية الكاملة",
+            scope_3: "أنظمة المنزل الذكي",
+            scope_4: "الواجهات الخارجية وتنسيق الموقع",
+            project_info_title: "معلومات المشروع",
+            client_label: "العميل:",
+            client_value: "مالك خاص",
+            location_label: "الموقع:",
+            location_value: "ينبع، المملكة العربية السعودية",
+            category_label: "التصنيف:",
+            category_value: "إنشاءات سكنية",
+            duration_label: "المدة:",
+            duration_value: "8 أشهر",
+            status_label: "الحالة:",
+            status_value: "مكتمل",
+            gallery_title: "معرض المشروع",
+            gallery_1: "فيلا سكنية فاخرة",
+            gallery_2: "مشروع مبنى تجاري",
+            gallery_3: "أعمال التشطيبات الداخلية",
+            gallery_4: "تجهيز وتجديد المكاتب",
+            gallery_5: "أعمال الخرسانة والإنشاءات",
+            gallery_6: "الواجهات الخارجية والتشطيبات"
+
+
         }
     };
 
@@ -147,6 +540,12 @@
             document.documentElement.dir = "ltr";
             document.documentElement.lang = "en";
         }
+
+        // ===== Active Button =====
+        document.getElementById("btn-en").classList.remove("active-lang");
+        document.getElementById("btn-ar").classList.remove("active-lang");
+
+        document.getElementById("btn-" + lang).classList.add("active-lang");
 
         localStorage.setItem("siteLang", lang);
     };

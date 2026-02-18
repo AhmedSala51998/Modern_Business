@@ -68,8 +68,15 @@
 
                     <!-- Language Switch -->
                     <div class="lang-switch">
-                        <button onclick="setLang('en')" class="btn btn-sm btn-outline-light me-2">EN</button>
-                        <button onclick="setLang('ar')" class="btn btn-sm btn-outline-light">AR</button>
+                        <button onclick="setLang('en')" id="btn-en"
+                            class="btn btn-sm btn-outline-light me-2">
+                            EN
+                        </button>
+
+                        <button onclick="setLang('ar')" id="btn-ar"
+                            class="btn btn-sm btn-outline-light">
+                            AR
+                        </button>
                     </div>
 
                 </div>
@@ -184,7 +191,7 @@
 
                 <!-- Slide 3 -->
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-3.jpg" alt="Image">
+                    <img class="w-100" src="img/carousel-12.jpeg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -209,7 +216,7 @@
 
                 <!-- Slide 4 -->
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-4.webp" alt="Image">
+                    <img class="w-100" src="img/carousel-8.webp" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -234,7 +241,7 @@
 
                 <!-- Slide 5 -->
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-5.webp" alt="Image">
+                    <img class="w-100" src="img/carousel-9.webp" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -259,7 +266,7 @@
 
                 <!-- Slide 6 -->
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-6.webp" alt="Image">
+                    <img class="w-100" src="img/carousel-10.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -302,11 +309,12 @@
             <div class="row g-5">
                 <div class="col-lg-6">
                     <div class="row gx-3 h-100">
-                        <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="img/about-1.jpg">
+                        <div class="col-6 align-self-start">
+                            <img class="img-fluid about-img img-animate-1" src="img/about-1.jpg">
                         </div>
-                        <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="img/feature.jpg">
+
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid about-img img-animate-2" src="img/project-4.jpg">
                         </div>
                     </div>
                 </div>
@@ -402,34 +410,47 @@
     <!-- Facts Start -->
     <div class="container-fluid facts my-5 p-5">
         <div class="row g-5">
+
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
                 <div class="text-center border p-5">
                     <i class="fa fa-certificate fa-3x text-white mb-3"></i>
                     <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">25</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Years Experience</span>
+                    <span class="fs-5 fw-semi-bold text-white" data-lang="fact_1">
+                        Years Experience
+                    </span>
                 </div>
             </div>
+
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
                 <div class="text-center border p-5">
                     <i class="fa fa-users-cog fa-3x text-white mb-3"></i>
                     <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">135</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Team Members</span>
+                    <span class="fs-5 fw-semi-bold text-white" data-lang="fact_2">
+                        Team Members
+                    </span>
                 </div>
             </div>
+
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.5s">
                 <div class="text-center border p-5">
                     <i class="fa fa-users fa-3x text-white mb-3"></i>
                     <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">957</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Happy Clients</span>
+                    <span class="fs-5 fw-semi-bold text-white" data-lang="fact_3">
+                        Happy Clients
+                    </span>
                 </div>
             </div>
+
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
                 <div class="text-center border p-5">
                     <i class="fa fa-check-double fa-3x text-white mb-3"></i>
                     <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">1839</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Projects Done</span>
+                    <span class="fs-5 fw-semi-bold text-white" data-lang="fact_4">
+                        Projects Done
+                    </span>
                 </div>
             </div>
+
         </div>
     </div>
     <!-- Facts End -->
@@ -439,21 +460,42 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5 align-items-center">
+
+                <!-- Image Side -->
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative me-lg-4">
-                        <img class="img-fluid w-100" src="img/feature.jpg" alt="">
-                        <span class="position-absolute top-50 start-100 translate-middle bg-white rounded-circle d-none d-lg-block" style="width: 120px; height: 120px;"></span>
-                        <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                    <div class="position-relative feature-img-wrapper">
+                        <div class="feature-img-inner">
+                          <img class="img-fluid w-100" src="img/feature.jpg" alt="">
+                        </div>
+                        
+                        <span class="position-absolute top-50 start-100 translate-middle bg-white rounded-circle d-none d-lg-block"
+                            style="width: 120px; height: 120px;"></span>
+
+                        <button type="button" 
+                            class="btn-play"
+                            data-bs-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                            data-bs-target="#videoModal">
                             <span></span>
                         </button>
                     </div>
                 </div>
 
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">Why Choose Us</p>
-                    <h1 class="display-5 mb-4">Why Clients Trust Our Construction & Finishing Services</h1>
-                    <p class="mb-4">
+                <!-- Content Side -->
+                <div class="col-lg-6 wow fadeInUp feature-content" data-wow-delay="0.5s">
+
+                    <p class="fw-medium text-uppercase text-primary mb-2"
+                    data-lang="why_choose">
+                    Why Choose Us
+                    </p>
+
+                    <h1 class="display-5 mb-4"
+                        data-lang="why_title">
+                        Why Clients Trust Our Construction & Finishing Services
+                    </h1>
+
+                    <p class="mb-4"
+                    data-lang="why_desc">
                         We are committed to delivering high-quality construction and finishing solutions across 
                         the Kingdom of Saudi Arabia. Our team combines technical expertise, modern equipment, 
                         and strict safety standards to ensure every project is completed on time and within budget.
@@ -461,14 +503,17 @@
 
                     <div class="row gy-4">
 
+                        <!-- Feature 1 -->
                         <div class="col-12">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                            <div class="d-flex feature-item">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary feature-icon">
                                     <i class="fa fa-check text-white"></i>
                                 </div>
-                                <div class="ms-4">
-                                    <h4>Skilled & Experienced Team</h4>
-                                    <span>
+                                <div class="feature-text">
+                                    <h4 data-lang="feature_1_title">
+                                        Skilled & Experienced Team
+                                    </h4>
+                                    <span data-lang="feature_1_desc">
                                         Our engineers, supervisors, and technicians have extensive experience 
                                         in residential, commercial, and industrial construction projects.
                                     </span>
@@ -476,14 +521,17 @@
                             </div>
                         </div>
 
+                        <!-- Feature 2 -->
                         <div class="col-12">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                            <div class="d-flex feature-item">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary feature-icon">
                                     <i class="fa fa-check text-white"></i>
                                 </div>
-                                <div class="ms-4">
-                                    <h4>High-Quality Materials & Finishing</h4>
-                                    <span>
+                                <div class="feature-text">
+                                    <h4 data-lang="feature_2_title">
+                                        High-Quality Materials & Finishing
+                                    </h4>
+                                    <span data-lang="feature_2_desc">
                                         We use premium materials and advanced construction methods to deliver 
                                         durable structures and high-end interior and exterior finishes.
                                     </span>
@@ -491,14 +539,17 @@
                             </div>
                         </div>
 
+                        <!-- Feature 3 -->
                         <div class="col-12">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                            <div class="d-flex feature-item">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary feature-icon">
                                     <i class="fa fa-check text-white"></i>
                                 </div>
-                                <div class="ms-4">
-                                    <h4>On-Time Project Delivery</h4>
-                                    <span>
+                                <div class="feature-text">
+                                    <h4 data-lang="feature_3_title">
+                                        On-Time Project Delivery
+                                    </h4>
+                                    <span data-lang="feature_3_desc">
                                         We follow strict project management standards to ensure timely delivery 
                                         while maintaining safety, quality, and cost efficiency.
                                     </span>
@@ -538,9 +589,18 @@
     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Our Services</p>
-                <h1 class="display-5 mb-4">Comprehensive Construction & Finishing Solutions</h1>
+            <div class="text-center mx-auto pb-4 wow fadeInUp" 
+                data-wow-delay="0.1s" style="max-width: 600px;">
+
+                <p class="fw-medium text-uppercase text-primary mb-2"
+                data-lang="services_small">
+                Our Services
+                </p>
+
+                <h1 class="display-5 mb-4"
+                    data-lang="services_title">
+                    Comprehensive Construction & Finishing Solutions
+                </h1>
             </div>
 
             <div class="row gy-5 gx-4">
@@ -555,17 +615,21 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Building Construction</h3>
+                                <h3 class="mb-0" data-lang="srv_1_title">
+                                    Building Construction
+                                </h3>
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">
-                                    We specialize in residential, commercial, and industrial building construction, 
-                                    delivering high-quality structural works in compliance with Saudi building standards.
+                                <p class="text-white mb-0"
+                                data-lang="srv_1_desc">
+                                    We specialize in residential, commercial, and industrial building construction...
                                 </p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="" data-lang="read_more">
+                            Read More
+                        </a>
                     </div>
                 </div>
 
@@ -579,17 +643,21 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Interior & Exterior Finishing</h3>
+                                <h3 class="mb-0" data-lang="srv_2_title">
+                                    Interior & Exterior Finishing
+                                </h3>
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">
-                                    Professional finishing services including plastering, painting, flooring, 
-                                    gypsum works, facades, and complete turnkey finishing solutions.
+                                <p class="text-white mb-0"
+                                data-lang="srv_2_desc">
+                                    Professional finishing services including plastering, painting...
                                 </p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="" data-lang="read_more">
+                            Read More
+                        </a>
                     </div>
                 </div>
 
@@ -603,17 +671,21 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Renovation & Project Management</h3>
+                                <h3 class="mb-0" data-lang="srv_3_title">
+                                    Renovation & Project Management
+                                </h3>
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">
-                                    We provide renovation, remodeling, and full project management services, 
-                                    ensuring efficient planning, supervision, and on-time project delivery.
+                                <p class="text-white mb-0"
+                                data-lang="srv_3_desc">
+                                    We provide renovation, remodeling, and full project management services...
                                 </p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="" data-lang="read_more">
+                            Read More
+                        </a>
                     </div>
                 </div>
 
@@ -625,9 +697,18 @@
 
     <!-- Project Start -->
     <div class="container-fluid bg-dark pt-5 my-5 px-0">
-        <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-            <p class="fw-medium text-uppercase text-primary mb-2">Our Projects</p>
-            <h1 class="display-5 text-white mb-5">Explore Our Recently Completed Projects</h1>
+        <div class="text-center mx-auto mt-5 wow fadeIn" 
+            data-wow-delay="0.1s" style="max-width: 600px;">
+
+            <p class="fw-medium text-uppercase text-primary mb-2"
+            data-lang="projects_small">
+                Our Projects
+            </p>
+
+            <h1 class="display-5 text-white mb-5"
+                data-lang="projects_title">
+                Explore Our Recently Completed Projects
+            </h1>
         </div>
 
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
@@ -635,42 +716,60 @@
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-1.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Luxury Residential Villa Construction</h5>
+                    <h5 class="text-primary mb-0"
+                        data-lang="project_1">
+                        Luxury Residential Villa Construction
+                    </h5>
                 </div>
             </a>
 
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-2.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Commercial Building Project</h5>
+                    <h5 class="text-primary mb-0"
+                        data-lang="project_2">
+                        Commercial Building Project
+                    </h5>
                 </div>
             </a>
 
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-3.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Full Interior Finishing Works</h5>
+                    <h5 class="text-primary mb-0"
+                        data-lang="project_3">
+                        Full Interior Finishing Works
+                    </h5>
                 </div>
             </a>
 
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-4.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Office Fit-Out & Renovation</h5>
+                    <h5 class="text-primary mb-0"
+                        data-lang="project_4">
+                        Office Fit-Out & Renovation
+                    </h5>
                 </div>
             </a>
 
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-5.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Concrete & Structural Works</h5>
+                    <h5 class="text-primary mb-0"
+                        data-lang="project_5">
+                        Concrete & Structural Works
+                    </h5>
                 </div>
             </a>
 
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-6.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Exterior Facade & Finishing Project</h5>
+                    <h5 class="text-primary mb-0"
+                        data-lang="project_6">
+                        Exterior Facade & Finishing Project
+                    </h5>
                 </div>
             </a>
 
@@ -682,68 +781,111 @@
     <!-- Team Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Our Team</p>
-                <h1 class="display-5 mb-5">Dedicated Team Members</h1>
+
+            <div class="text-center mx-auto wow fadeInUp" 
+                data-wow-delay="0.1s" style="max-width: 600px;">
+
+                <p class="fw-medium text-uppercase text-primary mb-2"
+                data-lang="team_small">
+                    Our Team
+                </p>
+
+                <h1 class="display-5 mb-5"
+                    data-lang="team_title">
+                    Dedicated Team Members
+                </h1>
+
             </div>
+
             <div class="row g-4">
+
+                <!-- Member 1 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
-                        <img class="img-fluid" src="img/client.webp" alt="">
+                        <img class="img-fluid" src="img/binoi.jpeg" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
                             </div>
+
                             <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4" style="height: 90px;">
-                                <h5>Binoi O. Thomas</h5>
-                                <span class="text-primary">Operations Manager</span>
+                                
+                                <h5>Mr / Binoi O. Thomas</h5>
+
+                                <span class="text-primary"
+                                    data-lang="team_role_1">
+                                    Operations Manager
+                                </span>
+
                                 <div class="team-social">
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                </div>                                                              
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Member 2 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
-                        <img class="img-fluid" src="img/client2.webp" alt="">
+                        <img class="img-fluid" src="img/shibu.jpeg" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
                             </div>
+
                             <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4" style="height: 90px;">
-                                <h5>Shibu Varghese</h5>
-                                <span class="text-primary">Admin. Manager</span>
+                                
+                                <h5>Mr / Shibu Varghese</h5>
+
+                                <span class="text-primary"
+                                    data-lang="team_role_2">
+                                    Admin. Manager
+                                </span>
+
                                 <div class="team-social">
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Member 3 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
-                        <img class="img-fluid" src="img/client3.webp" alt="">
+                        <img class="img-fluid" src="img/ahmed.jpeg" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
                             </div>
+
                             <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4" style="height: 90px;">
-                                <h5>Ahmad Khataam</h5>
-                                <span class="text-primary">H.R Manager</span>
+                                
+                                <h5 data-lang="team_name">Mr / Ahmad Khataam</h5>
+
+                                <span class="text-primary"
+                                    data-lang="team_role_3">
+                                    H.R Manager
+                                </span>
+
                                 <div class="team-social">
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -754,8 +896,12 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Testimonials</p>
-                <h1 class="display-5 mb-5">What Our Clients Say</h1>
+                <p class="fw-medium text-uppercase text-primary mb-2" data-lang="testimonials_small">
+                    Testimonials
+                </p>
+                <h1 class="display-5 mb-5" data-lang="testimonials_title">
+                    What Our Clients Say
+                </h1>
             </div>
 
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
@@ -769,13 +915,9 @@
                         </div>
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
-                        <p>
-                            The company delivered our residential villa project with outstanding quality and 
-                            professionalism. The work was completed on time and exceeded our expectations 
-                            in both construction and finishing.
-                        </p>
-                        <h5 class="mb-1">Mohammed Al-Harbi</h5>
-                        <span class="fst-italic">Property Owner – Riyadh</span>
+                        <p data-lang="testi_1_desc"></p>
+                        <h5 class="mb-1" data-lang="testi_1_name">Mohammed Al-Harbi</h5>
+                        <span class="fst-italic" data-lang="testi_1_role"></span>
                     </div>
                 </div>
 
@@ -788,13 +930,9 @@
                         </div>
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
-                        <p>
-                            Their team demonstrated excellent project management skills and strict adherence 
-                            to safety and quality standards. We highly recommend them for commercial 
-                            construction and interior finishing projects.
-                        </p>
-                        <h5 class="mb-1">Abdullah Al-Qahtani</h5>
-                        <span class="fst-italic">Business Owner – Jeddah</span>
+                        <p data-lang="testi_2_desc"></p>
+                        <h5 class="mb-1" data-lang="testi_2_name">Abdullah Al-Qahtani</h5>
+                        <span class="fst-italic" data-lang="testi_2_role"></span>
                     </div>
                 </div>
 
@@ -807,13 +945,9 @@
                         </div>
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
-                        <p>
-                            From structural works to final finishing, the execution was flawless. 
-                            The attention to detail and commitment to delivering on schedule 
-                            truly set them apart in the Saudi construction market.
-                        </p>
-                        <h5 class="mb-1">Faisal Al-Saud</h5>
-                        <span class="fst-italic">Project Consultant – Dammam</span>
+                        <p data-lang="testi_3_desc"></p>
+                        <h5 class="mb-1" data-lang="testi_3_name">Faisal Al-Nouri</h5>
+                        <span class="fst-italic" data-lang="testi_3_role"></span>
                     </div>
                 </div>
 
@@ -827,12 +961,34 @@
     <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
+
+                <!-- Column 1 -->
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4"><img src="img/logo.png" class="logo"> Modern Business</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Othman Ibn Afaan Street, Al-Rabawa Dist, Yanbu</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+966555366665</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+966590073204</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@modrnbusines.com</p>
+                    <h5 class="text-white mb-4">
+                        <img src="img/logo.png" class="logo">
+                        <span data-lang="brand"></span>
+                    </h5>
+
+                    <p class="mb-2">
+                        <i class="fa fa-map-marker-alt me-3"></i>
+                        <span data-lang="footer_address"></span>
+                    </p>
+
+                    <p class="mb-2">
+                        <i class="fa fa-phone-alt me-3"></i>
+                        +966555366665
+                    </p>
+
+                    <p class="mb-2">
+                        <i class="fa fa-phone-alt me-3"></i>
+                        +966590073204
+                    </p>
+
+                    <p class="mb-2">
+                        <i class="fa fa-envelope me-3"></i>
+                        info@modrnbusines.com
+                    </p>
+
                     <div class="d-flex pt-3">
                         <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
@@ -840,49 +996,68 @@
                         <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
+
+                <!-- Column 2 -->
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="about">About Us</a>
-                    <a class="btn btn-link" href="contact">Contact Us</a>
-                    <a class="btn btn-link" href="service">Our Services</a>
-                    <a class="btn btn-link" href="project">Our Projects</a>
-                    <a class="btn btn-link" href="feature">Our Features</a>
+                    <h5 class="text-white mb-4" data-lang="footer_quick"></h5>
+
+                    <a class="btn btn-link" href="about" data-lang="nav_about"></a>
+                    <a class="btn btn-link" href="contact" data-lang="nav_contact"></a>
+                    <a class="btn btn-link" href="service" data-lang="nav_services"></a>
+                    <a class="btn btn-link" href="project" data-lang="nav_projects"></a>
+                    <a class="btn btn-link" href="feature" data-lang="nav_features"></a>
                 </div>
+
+                <!-- Column 3 -->
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Business Hours</h5>
-                    <p class="mb-1">Saturday - Thursday</p>
-                    <h6 class="text-light">08:00 am - 04:00 pm</h6>
-                    <p class="mb-1">Friday</p>
-                    <h6 class="text-light">Closed</h6>
+                    <h5 class="text-white mb-4" data-lang="footer_hours"></h5>
+
+                    <p class="mb-1" data-lang="footer_days"></p>
+                    <h6 class="text-light" data-lang="footer_time"></h6>
+
+                    <p class="mb-1" data-lang="footer_friday"></p>
+                    <h6 class="text-light" data-lang="footer_closed"></h6>
                 </div>
+
+                <!-- Column 4 -->
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Need Assistance?</h5>
-                    <p>
-                        We do not offer account registration at the moment. 
-                        If you face any issues or have inquiries regarding our services, 
-                        please feel free to contact us and our team will be happy to assist you.
-                    </p>
+                    <h5 class="text-white mb-4" data-lang="footer_help"></h5>
+
+                    <p data-lang="footer_help_desc"></p>
+
                     <div class="position-relative w-100">
-                        <a href="contact" class="btn btn-primary py-2 px-4">
-                            Contact Us
-                        </a>
+                        <a href="contact" class="btn btn-primary py-2 px-4"
+                        data-lang="nav_contact"></a>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
+    <!-- Copyright -->
     <div class="container-fluid copyright bg-dark py-4">
         <div class="container text-center">
-            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="https://modrnbusines.com/">Modern Business</a>, All Right Reserved.</p>
-            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://sweepicode.com/">Sweepicode Company</a></p>
+
+            <p class="mb-2">
+                <span data-lang="footer_copy"></span>
+                <a class="fw-semi-bold" href="https://modrnbusines.com/">
+                    Modern Business
+                </a>,
+                <span data-lang="footer_rights"></span>
+            </p>
+
+            <p class="mb-0">
+                <span data-lang="footer_design"></span>
+                <a class="fw-semi-bold" href="https://sweepicode.com/">
+                    Sweepicode Company
+                </a>
+            </p>
+
         </div>
     </div>
-    <!-- Copyright End -->
 
 
     <!-- Back to Top -->
@@ -901,8 +1076,21 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const imageSection = document.querySelector(".feature-img-wrapper");
 
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        imageSection.classList.add("animate");
+                    }
+                });
+            }, { threshold: 0.4 });
+
+            observer.observe(imageSection);
+        });
     </script>
+    
 </body>
 
 </html>
