@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $align = 'right';
 
             $title = 'استفسار مشروع جديد';
-            $receivedText = 'تم استلام طلب جديد من نموذج التواصل في موقعك.';
+            $receivedText = 'تم استلام طلب جديد من نموذج التواصل في موقع مودرن بيزنس.';
             $clientName = 'اسم العميل';
             $emailText = 'البريد الإلكتروني';
             $projectType = 'نوع المشروع';
@@ -63,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $align = 'left';
 
             $title = 'New Project Inquiry';
-            $receivedText = 'You have received a new request from your website contact form.';
+            $receivedText = 'You have received a new request from modern business website contact form.';
             $clientName = 'Client Name';
             $emailText = 'Email';
             $projectType = 'Project Type';
