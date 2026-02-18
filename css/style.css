@@ -445,6 +445,7 @@ html[dir="rtl"] .page-header .breadcrumb-item+.breadcrumb-item::before {
 
 html[dir="rtl"] .page-header .breadcrumb-item {
     text-align: right;
+    padding-right: 5px;
 }
 
 
