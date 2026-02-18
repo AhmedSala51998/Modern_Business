@@ -1724,5 +1724,5 @@ html[dir="rtl"] .topbar-right span:nth-child(2) {
 
 html[dir="rtl"] .topbar-right .lang-switch {
     margin-left: 0;
-    margin-right: 15px !important;
+    padding-right: 15px !important;
 }
