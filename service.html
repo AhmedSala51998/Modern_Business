@@ -136,12 +136,20 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text-white animated slideInRight">Services</h1>
+            <h1 class="display-3 text-white animated slideInRight" data-lang="services_page_title">
+                Services
+            </h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Services</li>
+                    <li class="breadcrumb-item">
+                        <a href="/" data-lang="nav_home">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#" data-lang="nav_pages">Pages</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page" data-lang="nav_services">
+                        Services
+                    </li>
                 </ol>
             </nav>
         </div>
@@ -152,9 +160,18 @@
     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Our Services</p>
-                <h1 class="display-5 mb-4">Comprehensive Construction & Finishing Solutions</h1>
+            <div class="text-center mx-auto pb-4 wow fadeInUp" 
+                data-wow-delay="0.1s" style="max-width: 600px;">
+
+                <p class="fw-medium text-uppercase text-primary mb-2"
+                data-lang="services_small">
+                Our Services
+                </p>
+
+                <h1 class="display-5 mb-4"
+                    data-lang="services_title">
+                    Comprehensive Construction & Finishing Solutions
+                </h1>
             </div>
 
             <div class="row gy-5 gx-4">
@@ -169,17 +186,21 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Building Construction</h3>
+                                <h3 class="mb-0" data-lang="srv_1_title">
+                                    Building Construction
+                                </h3>
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">
-                                    We specialize in residential, commercial, and industrial building construction, 
-                                    delivering high-quality structural works in compliance with Saudi building standards.
+                                <p class="text-white mb-0"
+                                data-lang="srv_1_desc">
+                                    We specialize in residential, commercial, and industrial building construction...
                                 </p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="" data-lang="read_more">
+                            Read More
+                        </a>
                     </div>
                 </div>
 
@@ -193,17 +214,21 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Interior & Exterior Finishing</h3>
+                                <h3 class="mb-0" data-lang="srv_2_title">
+                                    Interior & Exterior Finishing
+                                </h3>
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">
-                                    Professional finishing services including plastering, painting, flooring, 
-                                    gypsum works, facades, and complete turnkey finishing solutions.
+                                <p class="text-white mb-0"
+                                data-lang="srv_2_desc">
+                                    Professional finishing services including plastering, painting...
                                 </p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="" data-lang="read_more">
+                            Read More
+                        </a>
                     </div>
                 </div>
 
@@ -217,17 +242,21 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Renovation & Project Management</h3>
+                                <h3 class="mb-0" data-lang="srv_3_title">
+                                    Renovation & Project Management
+                                </h3>
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">
-                                    We provide renovation, remodeling, and full project management services, 
-                                    ensuring efficient planning, supervision, and on-time project delivery.
+                                <p class="text-white mb-0"
+                                data-lang="srv_3_desc">
+                                    We provide renovation, remodeling, and full project management services...
                                 </p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="" data-lang="read_more">
+                            Read More
+                        </a>
                     </div>
                 </div>
 
@@ -241,8 +270,12 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Testimonials</p>
-                <h1 class="display-5 mb-5">What Our Clients Say</h1>
+                <p class="fw-medium text-uppercase text-primary mb-2" data-lang="testimonials_small">
+                    Testimonials
+                </p>
+                <h1 class="display-5 mb-5" data-lang="testimonials_title">
+                    What Our Clients Say
+                </h1>
             </div>
 
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
@@ -256,13 +289,9 @@
                         </div>
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
-                        <p>
-                            The company delivered our residential villa project with outstanding quality and 
-                            professionalism. The work was completed on time and exceeded our expectations 
-                            in both construction and finishing.
-                        </p>
-                        <h5 class="mb-1">Mohammed Al-Harbi</h5>
-                        <span class="fst-italic">Property Owner – Riyadh</span>
+                        <p data-lang="testi_1_desc"></p>
+                        <h5 class="mb-1" data-lang="testi_1_name">Mohammed Al-Harbi</h5>
+                        <span class="fst-italic" data-lang="testi_1_role"></span>
                     </div>
                 </div>
 
@@ -275,13 +304,9 @@
                         </div>
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
-                        <p>
-                            Their team demonstrated excellent project management skills and strict adherence 
-                            to safety and quality standards. We highly recommend them for commercial 
-                            construction and interior finishing projects.
-                        </p>
-                        <h5 class="mb-1">Abdullah Al-Qahtani</h5>
-                        <span class="fst-italic">Business Owner – Jeddah</span>
+                        <p data-lang="testi_2_desc"></p>
+                        <h5 class="mb-1" data-lang="testi_2_name">Abdullah Al-Qahtani</h5>
+                        <span class="fst-italic" data-lang="testi_2_role"></span>
                     </div>
                 </div>
 
@@ -294,13 +319,9 @@
                         </div>
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
-                        <p>
-                            From structural works to final finishing, the execution was flawless. 
-                            The attention to detail and commitment to delivering on schedule 
-                            truly set them apart in the Saudi construction market.
-                        </p>
-                        <h5 class="mb-1">Faisal Al-Saud</h5>
-                        <span class="fst-italic">Project Consultant – Dammam</span>
+                        <p data-lang="testi_3_desc"></p>
+                        <h5 class="mb-1" data-lang="testi_3_name">Faisal Al-Nouri</h5>
+                        <span class="fst-italic" data-lang="testi_3_role"></span>
                     </div>
                 </div>
 

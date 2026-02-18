@@ -311,6 +311,9 @@
             project_desc_4_short: "Modern office renovation with customized layouts and high-quality finishing standards.",
             project_desc_5_short: "Reinforced concrete and structural framework construction for large-scale developments.",
             project_desc_6_short: "Advanced exterior facade solutions with weather-resistant and aesthetic materials.",
+            services_page_title: "Services",
+            team_page_title: "Our Team",
+            testimonial_page_title: "Testimonials",
 
 
 
@@ -610,6 +613,9 @@
             project_desc_4_short: "تجديد مكاتب عصرية بتصاميم مخصصة وتشطيبات عالية الجودة.",
             project_desc_5_short: "أعمال خرسانة مسلحة وهياكل إنشائية لمشاريع تطوير كبيرة.",
             project_desc_6_short: "حلول واجهات خارجية متقدمة بمواد مقاومة للعوامل الجوية وذات طابع جمالي.",
+            services_page_title: "خدماتنا",
+            team_page_title: "فريق العمل",
+            testimonial_page_title: "آراء العملاء",
 
 
         }
