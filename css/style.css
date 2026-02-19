@@ -1802,6 +1802,7 @@ html[dir="rtl"] .btn-play span {
     width: 0;
     height: 0;
     right: -1px;
+    top:5px;
     border-right: 16px solid #FFFFFF;
     border-top: 11px solid transparent;
     border-bottom: 11px solid transparent;
