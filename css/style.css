@@ -1819,7 +1819,7 @@ html[dir="rtl"] .btn-play span {
         transform: translate(-50%, -50%);
     }
     html[dir="rtl"] .btn-play {
-        right: 50%;
+        right: 35%;
         left: auto;
         transform: translate(-50%, -50%);
     }
