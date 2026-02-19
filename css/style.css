@@ -1796,8 +1796,8 @@ html[dir="rtl"] .custom-modal-header .close-btn {
 .btn-play span {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(20%, -50%);
+    left: 80%;
+    transform: translate(50%, -50%);
     width: 0;
     height: 0;
     border-left: 16px solid #FFFFFF;
