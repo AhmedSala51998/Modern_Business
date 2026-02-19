@@ -1789,7 +1789,3 @@ html[dir="rtl"] .custom-modal-header .close-btn {
 html[dir="rtl"] .custom-modal-header .modal-title {
     text-align: right;
 }
-html[dir="rtl"] .custom-modal-header .close-btn {
-    margin-right: auto;
-    margin-left: -0.5rem; 
-}
