@@ -1793,22 +1793,11 @@ html[dir="rtl"] .custom-modal-header .close-btn {
     margin-right: auto;
     margin-left: 0.5rem; 
 }
-.btn-play {
+.btn-play span {
     position: absolute;
     top: 50%;
-    right: -30px;
-    transform: translateY(-50%);
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    background: var(--primary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-}
-.btn-play span {
+    left: 50%;
+    transform: translate(-50%, -40%);
     width: 0;
     height: 0;
     border-left: 16px solid #FFFFFF;
