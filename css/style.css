@@ -1764,7 +1764,6 @@ html[dir="ltr"] .custom-modal-header {
     justify-content: space-between;
 }
 
-/* عربي */
 html[dir="rtl"] .custom-modal-header {
     justify-content: flex-start;
 }
@@ -1775,4 +1774,22 @@ html[dir="rtl"] .custom-modal-header .close-btn {
 
 html[dir="rtl"] .custom-modal-header .modal-title {
     text-align: right;
+}
+html[dir="rtl"] .custom-modal-header {
+    display: flex;
+    align-items: center;
+    padding-left: 0 !important;
+    padding-right: 1rem;         
+}
+
+html[dir="rtl"] .custom-modal-header .close-btn {
+    margin-right: auto;
+}
+
+html[dir="rtl"] .custom-modal-header .modal-title {
+    text-align: right;
+}
+html[dir="rtl"] .custom-modal-header .close-btn {
+    margin-right: auto;
+    margin-left: -0.5rem; 
 }
