@@ -314,7 +314,7 @@
             services_page_title: "Services",
             team_page_title: "Our Team",
             testimonial_page_title: "Testimonials",
-            video_title: "Al Haditha Private Schools"
+            video_title: "One of Our Key Projects – Al Haditha Private Schools"
 
 
         },
@@ -616,7 +616,7 @@
             services_page_title: "خدماتنا",
             team_page_title: "فريق العمل",
             testimonial_page_title: "آراء العملاء",
-            video_title: "مدارس الحديثة الأهلية"
+            video_title: "من أهم المشاريع مدارس الحديثة الأهلية"
 
 
         }
