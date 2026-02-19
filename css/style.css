@@ -1797,7 +1797,7 @@ html[dir="rtl"] .custom-modal-header .close-btn {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-70%, -50%);
     width: 0;
     height: 0;
     border-left: 16px solid #FFFFFF;
