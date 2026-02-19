@@ -1742,3 +1742,16 @@ html[dir="rtl"] .modal-header-custom {
     text-align: right;
 }
 
+.custom-modal-header {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+html[dir="rtl"] .custom-modal-header {
+    direction: rtl;
+}
+
+html[dir="ltr"] .custom-modal-header {
+    direction: ltr;
+}
