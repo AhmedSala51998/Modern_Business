@@ -314,7 +314,7 @@
             services_page_title: "Services",
             team_page_title: "Our Team",
             testimonial_page_title: "Testimonials",
-
+            video_title: "Yanbu Modern Schools"
 
 
         },
@@ -616,6 +616,7 @@
             services_page_title: "خدماتنا",
             team_page_title: "فريق العمل",
             testimonial_page_title: "آراء العملاء",
+            video_title: "مدارس ينبع الحديثة"
 
 
         }
