@@ -483,6 +483,11 @@ html[dir="rtl"] .page-header .breadcrumb-item {
         right: auto;
         transform: translate(-50%, -50%);
     }
+    html[dir="rtl"] .btn-play {
+        left: 50%;
+        right: auto;
+        transform: translate(-50%, -50%);
+    }
 }
 
 .btn-play:before {
@@ -1806,4 +1811,16 @@ html[dir="rtl"] .btn-play span {
     border-right: 16px solid #FFFFFF;
     border-top: 11px solid transparent;
     border-bottom: 11px solid transparent;
+}
+@media (max-width: 992px) {
+    .btn-play {
+        left: 50%;
+        right: auto;
+        transform: translate(-50%, -50%);
+    }
+    html[dir="rtl"] .btn-play {
+        right: 50%;
+        left: auto;
+        transform: translate(-50%, -50%);
+    }
 }
