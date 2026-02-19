@@ -1726,11 +1726,19 @@ html[dir="rtl"] .topbar-right .lang-switch {
     margin-left: 0;
     padding-right: 15px !important;
 }
-[dir="rtl"] .modal-header {
-    flex-direction: row-reverse;
+.modal-header-custom {
+    display: flex;
+    align-items: center;
 }
 
-[dir="rtl"] .modal-header .btn-close {
-    margin-left: 0 !important;
-    margin-right: auto !important;
+html[dir="ltr"] .modal-header-custom {
+    justify-content: space-between;
+    text-align: left;
 }
+
+html[dir="rtl"] .modal-header-custom {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: right;
+}
+
