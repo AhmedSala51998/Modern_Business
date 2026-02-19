@@ -278,7 +278,7 @@
             contact_email_title: "Email Us",
             contact_email_btn: "Send Email",
 
-            contact_company_title: "Our Company",
+            contact_company_title: "Our Establishment",
             contact_address: "Othman Ibn Afaan Street,\nAl-Rabawa Dist, Yanbu",
             contact_location_btn: "View Location",
 
@@ -580,7 +580,7 @@
             contact_email_title: "راسلنا",
             contact_email_btn: "إرسال بريد",
 
-            contact_company_title: "شركتنا",
+            contact_company_title: "مؤسستنا",
             contact_address: "شارع عثمان بن عفان،\nحي الربوة، ينبع",
             contact_location_btn: "عرض الموقع",
 
