@@ -1791,5 +1791,5 @@ html[dir="rtl"] .custom-modal-header .modal-title {
 }
 html[dir="rtl"] .custom-modal-header .close-btn {
     margin-right: auto;
-    margin-left: -0.2rem; 
+    margin-left: 0.5rem; 
 }
