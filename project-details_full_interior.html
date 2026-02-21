@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Modern Business | Blog Details</title>
+    <title>Modern Business | Premium Interior Finishing</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
+    <!-- Favicon -->
     <link href="img/logo.png" rel="icon">
 
     <!-- Google Web Fonts -->
@@ -29,11 +32,12 @@
 </head>
 
 <body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
 
-<!-- Spinner -->
-<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
-</div>
 
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-0">
@@ -104,18 +108,18 @@
                 <a href="service" class="nav-item nav-link" data-lang="nav_services">Services</a>
 
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-lang="nav_pages">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" data-lang="nav_pages">
                         Pages
                     </a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="project" class="dropdown-item" data-lang="nav_projects">Projects</a>
+                        <a href="project" class="dropdown-item active" data-lang="nav_projects">Projects</a>
                         <a href="feature" class="dropdown-item" data-lang="nav_features">Features</a>
                         <a href="team" class="dropdown-item" data-lang="nav_team">Our Team</a>
                         <a href="testimonial" class="dropdown-item" data-lang="nav_testimonial">Testimonial</a>
                     </div>
                 </div>
 
-                <a href="blogs" class="nav-item nav-link active" data-lang="nav_blogs">Blogs</a>
+                <a href="blogs" class="nav-item nav-link" data-lang="nav_blogs">Blogs</a>
                 <a href="contact" class="nav-item nav-link" data-lang="nav_contact">Contact</a>
 
             </div>
@@ -128,84 +132,229 @@
     <!-- Navbar End -->
     <!-- Navbar End -->
 
-    <!-- Page Header -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn">
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-
             <h1 class="display-3 text-white animated slideInRight"
-                data-lang="blog_title_1">
-            </h1>
+                data-lang="projects_page_title">Projects</h1>
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
-
                     <li class="breadcrumb-item">
-                        <a href="/" data-lang="nav_home"></a>
+                        <a href="index.html" data-lang="nav_home">Home</a>
                     </li>
-
                     <li class="breadcrumb-item">
-                        <a href="blogs" data-lang="nav_blogs"></a>
+                        <a href="project.html" data-lang="nav_projects">Projects</a>
                     </li>
-
-                    <li class="breadcrumb-item active"
-                        data-lang="blog_details">
+                    <li class="breadcrumb-item active" aria-current="page"
+                        data-lang="crumb_interior_finishing">
+                        Premium Interior Finishing
                     </li>
-
                 </ol>
             </nav>
-
         </div>
     </div>
+    <!-- Page Header End -->
 
-    <!-- Blog Details Start -->
-    <div class="container py-5 my-5 blog-details">
-        <div class="row align-items-start g-5">
+    <!-- PROJECT DETAILS - INTERIOR FINISHING -->
+    <div class="container py-5">
 
-            <!-- Image Column -->
-            <div class="col-lg-5">
-                <div class="blog-image-wrapper wow fadeInLeft" data-wow-delay="0.2s">
-                    <img src="img/project-1.jpg"
-                        class="img-fluid w-100"
-                        alt="">
+        <div class="project-info-box wow fadeInUp" data-wow-delay="0.2s">
+            <div class="row g-5 align-items-start">
+
+                <!-- Project Image -->
+                <div class="col-lg-4 wow fadeInLeft" data-wow-delay="0.3s">
+                    <div class="project-image-wrapper">
+                        <img src="img/project-3.jpg"
+                            class="img-fluid w-100"
+                            alt="Interior Finishing Project">
+
+                        <div class="image-overlay">
+                            <span data-lang="interior_project_type">
+                                Premium Interior Finishing
+                            </span>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- Main Content -->
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.4s">
+
+                    <h3 class="mb-4 fw-bold"
+                        data-lang="interior_overview_title">
+                        Project Overview
+                    </h3>
+
+                    <p class="text-muted"
+                    data-lang="interior_desc_1">
+                    </p>
+
+                    <p class="text-muted"
+                    data-lang="interior_desc_2">
+                    </p>
+
+                    <h4 class="mt-4 mb-3"
+                        data-lang="interior_scope_title">
+                    </h4>
+
+                    <ul class="list-unstyled project-list">
+                        <li><i class="fa fa-check"></i>
+                            <span data-lang="interior_scope_1"></span>
+                        </li>
+                        <li><i class="fa fa-check"></i>
+                            <span data-lang="interior_scope_2"></span>
+                        </li>
+                        <li><i class="fa fa-check"></i>
+                            <span data-lang="interior_scope_3"></span>
+                        </li>
+                        <li><i class="fa fa-check"></i>
+                            <span data-lang="interior_scope_4"></span>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-3 wow fadeInRight" data-wow-delay="0.5s">
+
+                    <div class="project-sidebar">
+
+                        <h5 class="mb-4"
+                            data-lang="interior_info_title">
+                        </h5>
+
+                        <p>
+                            <strong data-lang="interior_client_label"></strong>
+                            <span data-lang="interior_client_value"></span>
+                        </p>
+
+                        <p>
+                            <strong data-lang="interior_location_label"></strong>
+                            <span data-lang="interior_location_value"></span>
+                        </p>
+
+                        <p>
+                            <strong data-lang="interior_category_label"></strong>
+                            <span data-lang="interior_category_value"></span>
+                        </p>
+
+                        <p>
+                            <strong data-lang="interior_duration_label"></strong>
+                            <span data-lang="interior_duration_value"></span>
+                        </p>
+
+                        <p>
+                            <strong data-lang="interior_status_label"></strong>
+                            <span data-lang="interior_status_value"></span>
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- GALLERY -->
+    <div class="container py-5 my-5">
+
+        <div class="text-center mb-5 wow fadeInUp">
+            <h2 class="fw-bold"
+                data-lang="gallery_title">
+                Project Gallery
+            </h2>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <a href="project-details_alhaditha_schools_yanbu" class="gallery-item">
+                    <div class="gallery-img">
+                        <img src="img/project-7.webp" class="img-fluid w-100" alt="">
+                        <div class="gallery-overlay">
+                            <h5 data-lang="gallery_alhaditha_school">
+                                Al Haditha Private Schools – Yanbu
+                            </h5>
+                        </div>
+                    </div>
+                </a>
             </div>
 
-            <!-- Content Column -->
-            <div class="col-lg-7 blog-content wow fadeInRight" data-wow-delay="0.3s">
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <a href="project-details_luxury_villa" class="gallery-item">
+                    <div class="gallery-img">
+                        <img src="img/project-1.jpg" class="img-fluid w-100" alt="">
+                        <div class="gallery-overlay">
+                            <h5 data-lang="gallery_1">Luxury Residential Villa</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
 
-                <div class="blog-meta mb-4">
-                    <i class="far fa-calendar-alt me-2"></i>
-                    <span data-lang="blog_date_1"></span>
-                    <span class="mx-3">|</span>
-                    <i class="far fa-user me-2"></i>
-                    <span data-lang="blog_author"></span>
-                </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                <a href="project-details_commercial_building" class="gallery-item">
+                    <div class="gallery-img">
+                        <img src="img/project-2.jpg" class="img-fluid w-100" alt="">
+                        <div class="gallery-overlay">
+                            <h5 data-lang="gallery_2">Commercial Building Project</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
 
-                <p class="lead" data-lang="blog_intro_1"></p>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <a href="project-details_full_interior" class="gallery-item">
+                    <div class="gallery-img">
+                        <img src="img/project-3.jpg" class="img-fluid w-100" alt="">
+                        <div class="gallery-overlay">
+                            <h5 data-lang="gallery_3">Interior Finishing Works</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
 
-                <p data-lang="blog_paragraph_1"></p>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                <a href="project-details_office_fit-out" class="gallery-item">
+                    <div class="gallery-img">
+                        <img src="img/project-4.jpg" class="img-fluid w-100" alt="">
+                        <div class="gallery-overlay">
+                            <h5 data-lang="gallery_4">Office Fit-Out & Renovation</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
 
-                <h4 data-lang="blog_section_1_title"></h4>
-                <p data-lang="blog_section_1_text"></p>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                <a href="project-details_concrete_and_structural_works" class="gallery-item">
+                    <div class="gallery-img">
+                        <img src="img/project-5.jpg" class="img-fluid w-100" alt="">
+                        <div class="gallery-overlay">
+                            <h5 data-lang="gallery_5">Concrete & Structural Works</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
 
-                <h4 data-lang="blog_section_2_title"></h4>
-                <p data-lang="blog_section_2_text"></p>
-
-                <h4 data-lang="blog_section_3_title"></h4>
-                <p data-lang="blog_section_3_text"></p>
-
-                <blockquote data-lang="blog_quote_1"></blockquote>
-
-                <p data-lang="blog_conclusion_1"></p>
-
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                <a href="project-details_exterior_facade_and_finishing_projects" class="gallery-item">
+                    <div class="gallery-img">
+                        <img src="img/project-6.jpg" class="img-fluid w-100" alt="">
+                        <div class="gallery-overlay">
+                            <h5 data-lang="gallery_6">Exterior Facade & Finishing</h5>
+                        </div>
+                    </div>
+                </a>
             </div>
 
         </div>
+
     </div>
-    <!-- Blog Details End -->
 
 
-    <!-- Footer Start -->
+ <!-- Footer Start -->
     <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
@@ -323,6 +472,13 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
 
+    <script>
+        $(window).on('load', function () {
+            $('#spinner').removeClass('show');
+        });
+        new WOW().init();
+    </script>
+
+</body>
 </html>

@@ -314,7 +314,252 @@
             services_page_title: "Services",
             team_page_title: "Our Team",
             testimonial_page_title: "Testimonials",
-            video_title: "One of Our Key Projects – Al Haditha Private Schools"
+            video_title: "One of Our Key Projects – Al Haditha Private Schools",
+            commercial_project_type: "Multi-Story Commercial Complex",
+            commercial_overview_title: "Project Overview",
+
+            commercial_desc_1: "This commercial building project involved the construction of a modern multi-story complex designed for offices, retail outlets, and business facilities. The structure was engineered to meet high-capacity operational standards and commercial safety regulations.",
+
+            commercial_desc_2: "Our team managed the complete execution process including structural framework, MEP systems, fire safety solutions, elevator systems, and high-end commercial interior finishing while ensuring strict quality control and on-time delivery.",
+
+            commercial_scope_title: "Scope of Execution",
+
+            commercial_scope_1: "Reinforced Concrete Structural Frame",
+            commercial_scope_2: "Complete Mechanical, Electrical & Plumbing Systems",
+            commercial_scope_3: "Commercial Interior Fit-Out & Finishing",
+            commercial_scope_4: "Fire Protection & Elevator Installation",
+
+            commercial_info_title: "Project Specifications",
+
+            commercial_client_label: "Client:",
+            commercial_client_value: "Private Investment Group",
+
+            commercial_location_label: "Location:",
+            commercial_location_value: "Jeddah, Saudi Arabia",
+
+            commercial_category_label: "Project Type:",
+            commercial_category_value: "Commercial Development",
+
+            commercial_duration_label: "Execution Period:",
+            commercial_duration_value: "14 Months",
+
+            commercial_status_label: "Current Status:",
+            commercial_status_value: "Completed Successfully",
+
+            interior_project_type: "High-End Interior Finishing Project",
+
+            interior_overview_title: "Project Overview",
+
+            interior_desc_1: "This project involved complete interior finishing works for a luxury residential property, including decorative gypsum ceilings, premium flooring installation, advanced lighting systems, and custom wall treatments.",
+
+            interior_desc_2: "Our team focused on delivering precision craftsmanship, high-quality materials, and elegant design solutions to create a refined and modern interior environment tailored to the client’s vision.",
+
+            interior_scope_title: "Scope of Work",
+
+            interior_scope_1: "Gypsum Ceiling & Decorative Designs",
+            interior_scope_2: "Premium Marble & Porcelain Flooring",
+            interior_scope_3: "Modern Lighting & Electrical Fixtures",
+            interior_scope_4: "Luxury Paint & Wall Finishing Solutions",
+
+            interior_info_title: "Project Information",
+
+            interior_client_label: "Client:",
+            interior_client_value: "Private Residential Owner",
+
+            interior_location_label: "Location:",
+            interior_location_value: "Riyadh, Saudi Arabia",
+
+            interior_category_label: "Category:",
+            interior_category_value: "Interior Finishing Works",
+
+            interior_duration_label: "Duration:",
+            interior_duration_value: "6 Months",
+
+            interior_status_label: "Status:",
+            interior_status_value: "Completed Successfully",
+
+            officefit_type_en: "Corporate Office Fit-Out & Renovation",
+            officefit_overview_en: "Project Overview",
+
+            officefit_desc1_en: "This office fit-out project involved transforming an existing workspace into a modern, functional, and visually appealing corporate environment, with a focus on maximizing space efficiency and improving workflow productivity.",
+
+            officefit_desc2_en: "Our team delivered high-quality finishing works, custom partitions, upgraded lighting systems, and ergonomic layout planning to ensure a professional and productive work atmosphere.",
+
+            officefit_scope_title_en: "Scope of Work",
+
+            officefit_scope1_en: "Customized Office Layout Planning",
+            officefit_scope2_en: "Gypsum & Partition Installation",
+            officefit_scope3_en: "Flooring, Ceiling & Lighting Systems",
+            officefit_scope4_en: "Painting & Final Finishing Works",
+
+            officefit_info_title_en: "Project Details",
+
+            officefit_client_label_en: "Client:",
+            officefit_client_value_en: "Corporate Business Company",
+
+            officefit_location_label_en: "Location:",
+            officefit_location_value_en: "Riyadh, Saudi Arabia",
+
+            officefit_category_label_en: "Category:",
+            officefit_category_value_en: "Commercial Office Renovation",
+
+            officefit_duration_label_en: "Execution Period:",
+            officefit_duration_value_en: "6 Months",
+
+            officefit_status_label_en: "Current Status:",
+            officefit_status_value_en: "Completed Successfully",
+
+            structproj_type_title: "Reinforced Concrete & Structural Framework",
+
+            structproj_overview_title: "Project Overview",
+
+            structproj_paragraph_one: "This project involved executing comprehensive reinforced concrete and structural framework works for a large-scale development. The construction adhered to international engineering standards ensuring durability, strength, and long-term performance.",
+
+            structproj_paragraph_two: "Our engineering team managed all structural phases including excavation, foundation casting, column and slab construction, and strict structural safety compliance with precision and efficiency.",
+
+            structproj_scope_header: "Scope of Execution",
+
+            structproj_scope_item1: "Site Preparation & Excavation Works",
+            structproj_scope_item2: "Reinforced Concrete Foundations",
+            structproj_scope_item3: "Columns, Beams & Slab Construction",
+            structproj_scope_item4: "Structural Quality Control & Testing",
+
+            structproj_details_title: "Project Specifications",
+
+            structproj_client_label: "Client:",
+            structproj_client_value: "Real Estate Development Company",
+
+            structproj_location_label: "Location:",
+            structproj_location_value: "Dammam, Saudi Arabia",
+
+            structproj_category_label: "Category:",
+            structproj_category_value: "Structural Construction",
+
+            structproj_duration_label: "Execution Period:",
+            structproj_duration_value: "12 Months",
+
+            structproj_status_label: "Current Status:",
+            structproj_status_value: "Successfully Completed",
+
+            facadeproj_type_heading: "Exterior Facade & Architectural Finishing",
+
+            facadeproj_overview_heading: "Project Overview",
+
+            facadeproj_text_block_one: "This project focused on delivering modern exterior facade solutions combining architectural aesthetics with high weather resistance. Advanced cladding systems and premium finishing materials were used to enhance both durability and visual appeal.",
+
+            facadeproj_text_block_two: "Our team ensured precise installation, insulation integration, waterproofing systems, and long-term protection against harsh environmental conditions across the Kingdom.",
+
+            facadeproj_scope_heading: "Execution Scope",
+
+            facadeproj_scope_point_one: "Aluminum & Glass Cladding Systems",
+            facadeproj_scope_point_two: "Thermal Insulation & Waterproofing",
+            facadeproj_scope_point_three: "Decorative Architectural Panels",
+            facadeproj_scope_point_four: "Protective Coatings & Finishing Works",
+
+            facadeproj_info_heading: "Project Information",
+
+            facadeproj_client_tag: "Client:",
+            facadeproj_client_data: "Government Development Authority",
+
+            facadeproj_location_tag: "Location:",
+            facadeproj_location_data: "Riyadh, Saudi Arabia",
+
+            facadeproj_category_tag: "Project Type:",
+            facadeproj_category_data: "Exterior Architectural Finishing",
+
+            facadeproj_duration_tag: "Duration:",
+            facadeproj_duration_data: "9 Months",
+
+            facadeproj_status_tag: "Project Status:",
+            facadeproj_status_data: "Successfully Delivered",
+
+            schoolproj_card_title: "Al Haditha Private Schools - Yanbu",
+            schoolproj_card_desc: "Comprehensive construction and finishing works for a modern educational campus.",
+
+            schoolproj_type_label: "Educational Campus Development",
+
+            schoolproj_main_heading: "Project Overview",
+
+            schoolproj_para_one:
+            "Al Haditha Private Schools project in Yanbu involved the construction and finishing of a fully integrated educational campus designed to provide a modern and safe learning environment for students across multiple academic levels.",
+
+            schoolproj_para_two:
+            "The project included classrooms, administrative offices, laboratories, activity areas, and exterior playground facilities, all executed according to high-quality construction standards and educational infrastructure requirements.",
+
+            schoolproj_scope_heading: "Scope of Work",
+
+            schoolproj_scope_item_a: "Structural & Concrete Construction Works",
+            schoolproj_scope_item_b: "Complete Interior & Exterior Finishing",
+            schoolproj_scope_item_c: "Electrical, HVAC & Safety Systems Installation",
+            schoolproj_scope_item_d: "Landscape & Outdoor Facilities Development",
+
+            schoolproj_info_heading: "Project Information",
+
+            schoolproj_client_label: "Client:",
+            schoolproj_client_value: "Al Haditha Private Schools",
+
+            schoolproj_city_label: "Location:",
+            schoolproj_city_value: "Yanbu, Saudi Arabia",
+
+            schoolproj_category_label: "Project Type:",
+            schoolproj_category_value: "Educational Facility",
+
+            schoolproj_time_label: "Execution Period:",
+            schoolproj_time_value: "12 Months",
+
+            schoolproj_state_label: "Project Status:",
+            schoolproj_state_value: "Completed",
+            gallery_alhaditha_school: "Al Haditha Private Schools – Yanbu",
+            alhaditha_school_project_title: "Al Haditha Private Schools – Yanbu",
+            crumb_alhaditha_school: "Al Haditha Private Schools – Yanbu",
+            crumb_commercial_complex: "Multi-Story Commercial Complex",
+            crumb_structural_framework: "Reinforced Concrete & Structural Framework",
+            crumb_exterior_facade: "Exterior Facade & Architectural Finishing",
+            crumb_interior_finishing: "Premium Interior Finishing",
+            crumb_luxury_villa: "Luxury Residential Villa",
+            crumb_office_fitout: "Corporate Office Fit-Out & Renovation",
+            sblog2_date: "March 18, 2026",
+            sblog2_author: "Construction Development Team",
+
+            sblog2_intro: "Sustainable commercial construction is redefining the future of urban development in Saudi Arabia, aligning with Vision 2030 goals for environmental responsibility and economic growth.",
+
+            sblog2_paragraph_one: "Modern commercial projects now integrate energy-efficient systems, environmentally friendly materials, and smart technologies to enhance operational performance and reduce environmental impact.",
+
+            sblog2_heading_one: "Smart Energy Management",
+            sblog2_text_one: "Advanced building management systems monitor electricity usage, optimize cooling systems, and reduce unnecessary consumption through automation and AI-driven controls.",
+
+            sblog2_heading_two: "Sustainable Materials & Design Innovation",
+            sblog2_text_two: "Low-carbon concrete, recyclable aluminum systems, and high-performance glass facades are increasingly used to achieve durability while minimizing carbon emissions.",
+
+            sblog2_heading_three: "Economic & Environmental Benefits",
+            sblog2_text_three: "Sustainable buildings reduce long-term operational costs, improve indoor air quality, and create healthier workspaces, making them attractive investments for companies and developers.",
+
+            sblog2_quote: "The future of commercial construction lies in sustainability, innovation, and smart integration of technology.",
+
+            sblog2_conclusion: "As Saudi Arabia continues expanding its commercial infrastructure, sustainable construction practices will remain essential in building resilient and future-ready developments.",
+            ifblog_date: "February 18, 2026",
+            ifblog_author: "By Engineering Team",
+
+            ifblog_intro: "Interior finishing plays a crucial role in defining the quality, functionality, and visual identity of any construction project. Modern finishing standards combine aesthetics with durability and long-term performance.",
+
+            ifblog_paragraph_one: "High-quality interior finishing requires precise execution, premium materials, and professional supervision. From flooring systems to ceiling installations, every detail contributes to the final outcome of the project.",
+
+            ifblog_heading_one: "Material Selection & Quality Control",
+            ifblog_text_one: "Choosing certified materials ensures durability and safety. Quality control inspections during execution help prevent defects and maintain project standards.",
+
+            ifblog_heading_two: "Modern Design Integration",
+            ifblog_text_two: "Contemporary interior finishing integrates smart lighting systems, acoustic treatments, and energy-efficient materials to create functional and comfortable environments.",
+
+            ifblog_heading_three: "Execution Precision & Supervision",
+            ifblog_text_three: "Skilled technicians and continuous engineering supervision are essential to achieving flawless finishing results and meeting strict deadlines.",
+
+            ifblog_quote: "Premium finishing is not about appearance only — it reflects engineering precision and long-term value.",
+
+            ifblog_conclusion: "By adhering to international finishing standards, construction companies can deliver projects that combine beauty, safety, and sustainability in one complete package.",
+            crumb_modern_villa_trends: "Modern Villa Construction Trends in Saudi Arabia",
+            crumb_interior_finishing_standards: "Interior Finishing Standards in Modern Construction",
+            crumb_sustainable_commercial_building: "Sustainable Commercial Construction Strategies",
+
 
 
         },
@@ -616,7 +861,253 @@
             services_page_title: "خدماتنا",
             team_page_title: "فريق العمل",
             testimonial_page_title: "آراء العملاء",
-            video_title: "من أهم المشاريع مدارس الحديثة الأهلية"
+            video_title: "من أهم المشاريع مدارس الحديثة الأهلية",
+            commercial_project_type: "مجمع تجاري متعدد الطوابق",
+
+            commercial_overview_title: "نظرة عامة على المشروع",
+
+            commercial_desc_1: "تضمن هذا المشروع تنفيذ مبنى تجاري حديث متعدد الطوابق مخصص للمكاتب والمحلات التجارية والمرافق الاستثمارية. تم تصميم الهيكل وفق أعلى المعايير التشغيلية والاشتراطات الهندسية الخاصة بالمباني التجارية.",
+
+            commercial_desc_2: "أدار فريقنا كامل مراحل التنفيذ بدءًا من الهيكل الإنشائي وأنظمة الميكانيكا والكهرباء والسباكة، مرورًا بأنظمة مكافحة الحريق والمصاعد، وصولاً إلى أعمال التشطيبات التجارية عالية الجودة مع الالتزام التام بالجودة والجدول الزمني.",
+
+            commercial_scope_title: "نطاق التنفيذ",
+
+            commercial_scope_1: "تنفيذ الهيكل الخرساني المسلح",
+            commercial_scope_2: "تركيب أنظمة الميكانيكا والكهرباء والسباكة بالكامل",
+            commercial_scope_3: "أعمال التشطيبات الداخلية التجارية المتكاملة",
+            commercial_scope_4: "أنظمة مكافحة الحريق وتركيب المصاعد",
+
+            commercial_info_title: "مواصفات المشروع",
+
+            commercial_client_label: "العميل:",
+            commercial_client_value: "مجموعة استثمارية خاصة",
+
+            commercial_location_label: "الموقع:",
+            commercial_location_value: "جدة، المملكة العربية السعودية",
+
+            commercial_category_label: "نوع المشروع:",
+            commercial_category_value: "تطوير تجاري",
+
+            commercial_duration_label: "مدة التنفيذ:",
+            commercial_duration_value: "14 شهر",
+
+            commercial_status_label: "حالة المشروع:",
+            commercial_status_value: "مكتمل بنجاح",
+
+            interior_project_type: "مشروع تشطيبات داخلية فاخرة",
+
+            interior_overview_title: "نظرة عامة على المشروع",
+
+            interior_desc_1: "تضمن هذا المشروع تنفيذ أعمال تشطيبات داخلية متكاملة لفيلا سكنية فاخرة، شملت أسقف جبسية ديكورية، تركيب أرضيات فاخرة، أنظمة إضاءة حديثة، ومعالجات جدارية مخصصة.",
+
+            interior_desc_2: "ركز فريقنا على تقديم أعلى درجات الدقة والحرفية باستخدام مواد عالية الجودة وتصاميم أنيقة لخلق بيئة داخلية عصرية تلبي تطلعات العميل.",
+
+            interior_scope_title: "نطاق الأعمال",
+
+            interior_scope_1: "تنفيذ الأسقف الجبسية والتصاميم الديكورية",
+            interior_scope_2: "تركيب أرضيات رخام وبورسلان فاخر",
+            interior_scope_3: "أنظمة الإضاءة الحديثة والتجهيزات الكهربائية",
+            interior_scope_4: "أعمال الدهانات والتشطيبات الجدارية الفاخرة",
+
+            interior_info_title: "معلومات المشروع",
+
+            interior_client_label: "العميل:",
+            interior_client_value: "مالك سكني خاص",
+
+            interior_location_label: "الموقع:",
+            interior_location_value: "الرياض، المملكة العربية السعودية",
+
+            interior_category_label: "التصنيف:",
+            interior_category_value: "أعمال التشطيبات الداخلية",
+
+            interior_duration_label: "مدة التنفيذ:",
+            interior_duration_value: "6 أشهر",
+
+            interior_status_label: "الحالة:",
+            interior_status_value: "مكتمل بنجاح",
+
+            officefit_type_en: "تجهيز وتجديد مكتب إداري",
+            officefit_overview_en: "نظرة عامة على المشروع",
+
+            officefit_desc1_en: "يشمل مشروع تجهيز المكتب تحويل مساحة عمل قائمة إلى بيئة مكتبية حديثة وعملية ذات طابع احترافي، مع التركيز على تحسين استغلال المساحات وكفاءة سير العمل.",
+
+            officefit_desc2_en: "قام فريقنا بتنفيذ أعمال تشطيبات عالية الجودة، وتركيب القواطع الجبسية، وتطوير أنظمة الإضاءة، وتصميم توزيع داخلي مريح يعزز الإنتاجية ويوفر بيئة عمل احترافية.",
+
+            officefit_scope_title_en: "نطاق الأعمال",
+
+            officefit_scope1_en: "تصميم مخطط داخلي مخصص للمكاتب",
+            officefit_scope2_en: "أعمال القواطع والجبس",
+            officefit_scope3_en: "تنفيذ الأرضيات والأسقف وأنظمة الإضاءة",
+            officefit_scope4_en: "أعمال الدهانات والتشطيبات النهائية",
+
+            officefit_info_title_en: "تفاصيل المشروع",
+
+            officefit_client_label_en: "العميل:",
+            officefit_client_value_en: "شركة أعمال تجارية",
+
+            officefit_location_label_en: "الموقع:",
+            officefit_location_value_en: "الرياض، المملكة العربية السعودية",
+
+            officefit_category_label_en: "التصنيف:",
+            officefit_category_value_en: "تجديد مكاتب تجارية",
+
+            officefit_duration_label_en: "مدة التنفيذ:",
+            officefit_duration_value_en: "6 أشهر",
+
+            officefit_status_label_en: "الحالة:",
+            officefit_status_value_en: "مكتمل",
+
+            structproj_type_title: "أعمال الخرسانة المسلحة والهيكل الإنشائي",
+
+            structproj_overview_title: "نظرة عامة على المشروع",
+
+            structproj_paragraph_one: "يتضمن هذا المشروع تنفيذ أعمال الخرسانة المسلحة والهيكل الإنشائي لمشروع تطوير واسع النطاق، وفق أعلى المعايير الهندسية العالمية لضمان المتانة والقوة والاستدامة طويلة المدى.",
+
+            structproj_paragraph_two: "أدار فريقنا الهندسي جميع مراحل التنفيذ الإنشائي بما في ذلك أعمال الحفر، وصب الأساسات، وتنفيذ الأعمدة والبلاطات، مع الالتزام الكامل بمعايير السلامة والجودة.",
+
+            structproj_scope_header: "نطاق التنفيذ",
+
+            structproj_scope_item1: "أعمال تجهيز الموقع والحفر",
+            structproj_scope_item2: "تنفيذ الأساسات الخرسانية المسلحة",
+            structproj_scope_item3: "إنشاء الأعمدة والكمرات والبلاطات",
+            structproj_scope_item4: "اختبارات الجودة والسلامة الإنشائية",
+
+            structproj_details_title: "مواصفات المشروع",
+
+            structproj_client_label: "العميل:",
+            structproj_client_value: "شركة تطوير عقاري",
+
+            structproj_location_label: "الموقع:",
+            structproj_location_value: "الدمام، المملكة العربية السعودية",
+
+            structproj_category_label: "التصنيف:",
+            structproj_category_value: "إنشاءات هيكلية",
+
+            structproj_duration_label: "مدة التنفيذ:",
+            structproj_duration_value: "12 شهر",
+
+            structproj_status_label: "الحالة الحالية:",
+            structproj_status_value: "تم التسليم بنجاح",
+
+            facadeproj_type_heading: "واجهات خارجية وتشطيبات معمارية",
+
+            facadeproj_overview_heading: "نظرة عامة على المشروع",
+
+            facadeproj_text_block_one: "يركز هذا المشروع على تنفيذ حلول واجهات خارجية حديثة تجمع بين الجمال المعماري والمقاومة العالية للعوامل الجوية، باستخدام أنظمة تكسية متطورة ومواد تشطيب عالية الجودة لتعزيز المتانة والمظهر الجمالي.",
+
+            facadeproj_text_block_two: "قام فريقنا بتنفيذ أعمال التركيب بدقة عالية مع دمج أنظمة العزل الحراري ومقاومة المياه، لضمان حماية طويلة الأمد ضد الظروف المناخية القاسية في المملكة.",
+
+            facadeproj_scope_heading: "نطاق التنفيذ",
+
+            facadeproj_scope_point_one: "أنظمة تكسية الألمنيوم والزجاج",
+            facadeproj_scope_point_two: "العزل الحراري ومقاومة المياه",
+            facadeproj_scope_point_three: "ألواح وزخارف معمارية خارجية",
+            facadeproj_scope_point_four: "الدهانات والطبقات الوقائية النهائية",
+
+            facadeproj_info_heading: "معلومات المشروع",
+
+            facadeproj_client_tag: "العميل:",
+            facadeproj_client_data: "هيئة تطوير حكومية",
+
+            facadeproj_location_tag: "الموقع:",
+            facadeproj_location_data: "الرياض، المملكة العربية السعودية",
+
+            facadeproj_category_tag: "نوع المشروع:",
+            facadeproj_category_data: "تشطيبات وواجهات خارجية",
+
+            facadeproj_duration_tag: "مدة التنفيذ:",
+            facadeproj_duration_data: "9 أشهر",
+
+            facadeproj_status_tag: "حالة المشروع:",
+            facadeproj_status_data: "تم التسليم بنجاح",
+
+            schoolproj_card_title: "مدارس الحديثة الأهلية - ينبع",
+            schoolproj_card_desc: "تنفيذ أعمال الإنشاء والتشطيبات الكاملة لمجمع تعليمي حديث.",
+
+            schoolproj_type_label: "تطوير مجمع تعليمي متكامل",
+
+            schoolproj_main_heading: "نظرة عامة على المشروع",
+
+            schoolproj_para_one:
+            "يتضمن مشروع مدارس الحديثة الأهلية بمدينة ينبع تنفيذ أعمال إنشاء وتشطيب مجمع تعليمي متكامل مصمم لتوفير بيئة تعليمية حديثة وآمنة للطلاب بمختلف المراحل الدراسية.",
+
+            schoolproj_para_two:
+            "شمل المشروع الفصول الدراسية، المكاتب الإدارية، المعامل، مناطق الأنشطة، والملاعب الخارجية، مع تنفيذ جميع الأعمال وفق أعلى معايير الجودة ومتطلبات البنية التحتية التعليمية.",
+
+            schoolproj_scope_heading: "نطاق الأعمال",
+
+            schoolproj_scope_item_a: "أعمال الهيكل الخرساني والإنشائي",
+            schoolproj_scope_item_b: "أعمال التشطيبات الداخلية والخارجية الكاملة",
+            schoolproj_scope_item_c: "تنفيذ أنظمة الكهرباء والتكييف والسلامة",
+            schoolproj_scope_item_d: "تنسيق الموقع والمرافق الخارجية",
+
+            schoolproj_info_heading: "معلومات المشروع",
+
+            schoolproj_client_label: "العميل:",
+            schoolproj_client_value: "مدارس الحديثة الأهلية",
+
+            schoolproj_city_label: "الموقع:",
+            schoolproj_city_value: "ينبع، المملكة العربية السعودية",
+
+            schoolproj_category_label: "نوع المشروع:",
+            schoolproj_category_value: "مرفق تعليمي",
+
+            schoolproj_time_label: "مدة التنفيذ:",
+            schoolproj_time_value: "12 شهرًا",
+
+            schoolproj_state_label: "حالة المشروع:",
+            schoolproj_state_value: "تم الإنجاز",
+            gallery_alhaditha_school: "مدارس الحديثة الأهلية – ينبع",
+            alhaditha_school_project_title: "مدارس الحديثة الأهلية – ينبع",
+            crumb_alhaditha_school: "مدارس الحديثة الأهلية – ينبع",
+            crumb_commercial_complex: "مجمع تجاري متعدد الطوابق",
+            crumb_structural_framework: "أعمال الخرسانة والهيكل الإنشائي",
+            crumb_exterior_facade: "واجهات خارجية وتشطيبات معمارية",
+            crumb_interior_finishing: "تشطيبات داخلية فاخرة",
+            crumb_luxury_villa: "فيلا سكنية فاخرة",
+            crumb_office_fitout: "تشطيب وتجديد مكاتب إدارية",
+            sblog2_date: "18 مارس 2026",
+            sblog2_author: "فريق تطوير المشاريع",
+
+            sblog2_intro: "يعيد البناء التجاري المستدام تشكيل مستقبل التطوير العمراني في المملكة العربية السعودية بما يتماشى مع أهداف رؤية 2030 نحو الاستدامة والنمو الاقتصادي.",
+
+            sblog2_paragraph_one: "تعتمد المشاريع التجارية الحديثة على أنظمة موفرة للطاقة ومواد صديقة للبيئة وتقنيات ذكية لتعزيز الكفاءة التشغيلية وتقليل التأثير البيئي.",
+
+            sblog2_heading_one: "إدارة الطاقة الذكية",
+            sblog2_text_one: "تعمل أنظمة إدارة المباني المتطورة على مراقبة استهلاك الكهرباء وتحسين أداء أنظمة التبريد وتقليل الهدر من خلال الأتمتة والتحكم الذكي.",
+
+            sblog2_heading_two: "مواد مستدامة وابتكار في التصميم",
+            sblog2_text_two: "يتم استخدام الخرسانة منخفضة الانبعاثات وأنظمة الألمنيوم القابلة لإعادة التدوير والواجهات الزجاجية عالية الأداء لتحقيق المتانة مع تقليل البصمة الكربونية.",
+
+            sblog2_heading_three: "فوائد اقتصادية وبيئية",
+            sblog2_text_three: "تسهم المباني المستدامة في خفض التكاليف التشغيلية طويلة الأمد وتحسين جودة الهواء الداخلي وخلق بيئة عمل صحية، مما يجعلها استثمارًا جذابًا.",
+
+            sblog2_quote: "مستقبل البناء التجاري يعتمد على الاستدامة والابتكار والتكامل الذكي للتقنيات الحديثة.",
+
+            sblog2_conclusion: "مع استمرار توسع البنية التحتية التجارية في المملكة، ستظل ممارسات البناء المستدام عنصرًا أساسيًا في إنشاء مشاريع عصرية ومستقبلية.",
+            ifblog_date: "18 فبراير 2026",
+            ifblog_author: "بواسطة الفريق الهندسي",
+
+            ifblog_intro: "تلعب التشطيبات الداخلية دورًا أساسيًا في تحديد جودة المشروع وهويته البصرية ووظيفته العملية. حيث تجمع المعايير الحديثة بين الجمال والمتانة والأداء طويل الأمد.",
+
+            ifblog_paragraph_one: "يتطلب تنفيذ التشطيبات الداخلية عالية الجودة دقة في العمل، واستخدام مواد متميزة، وإشرافًا هندسيًا مستمرًا. من أنظمة الأرضيات إلى الأسقف المستعارة، كل تفصيلة تؤثر على النتيجة النهائية.",
+
+            ifblog_heading_one: "اختيار المواد وضبط الجودة",
+            ifblog_text_one: "يضمن اختيار المواد المعتمدة تحقيق المتانة والسلامة، كما تساعد عمليات الفحص أثناء التنفيذ على تجنب العيوب والحفاظ على جودة المشروع.",
+
+            ifblog_heading_two: "دمج التصاميم الحديثة",
+            ifblog_text_two: "تعتمد التشطيبات الحديثة على دمج أنظمة الإضاءة الذكية، والمعالجات الصوتية، والمواد الموفرة للطاقة لخلق بيئات مريحة وعملية.",
+
+            ifblog_heading_three: "دقة التنفيذ والإشراف",
+            ifblog_text_three: "يعد وجود فنيين مهرة وإشراف هندسي مستمر أمرًا ضروريًا لضمان نتائج مثالية والالتزام بالجداول الزمنية.",
+
+            ifblog_quote: "التشطيبات المتميزة لا تعني الشكل الجمالي فقط، بل تعكس دقة هندسية وقيمة طويلة المدى.",
+
+            ifblog_conclusion: "من خلال الالتزام بمعايير التشطيبات العالمية، يمكن لشركات البناء تقديم مشاريع تجمع بين الجمال والسلامة والاستدامة في آنٍ واحد.",
+            crumb_modern_villa_trends: "أحدث اتجاهات بناء الفلل في المملكة العربية السعودية",
+            crumb_sustainable_commercial_building: "استراتيجيات البناء التجاري المستدام",
+            crumb_interior_finishing_standards: "معايير التشطيبات الداخلية في البناء الحديث",
+
 
 
         }
