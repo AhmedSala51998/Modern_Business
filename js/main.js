@@ -575,7 +575,19 @@
             portfolio_item_3_desc: "Development of commercial complexes and office fit-out projects with professional project management and strict quality control.",
 
             portfolio_item_4_title: "Concrete & Structural Works",
-            portfolio_item_4_desc: "Comprehensive reinforced concrete and structural framework projects executed according to international engineering standards."
+            portfolio_item_4_desc: "Comprehensive reinforced concrete and structural framework projects executed according to international engineering standards.",
+            portfolio_item_1_title: "Integrated Educational School Project",
+            portfolio_item_1_desc: "Construction of a modern school building with distinctive architecture and fully integrated infrastructure.",
+
+            portfolio_item_2_title: "Sports Field Construction",
+            portfolio_item_2_desc: "Installation of high-quality artificial turf fields with proper drainage and lighting systems.",
+
+            portfolio_item_3_title: "Educational Hall & Auditorium Finishing",
+            portfolio_item_3_desc: "Professional finishing of lecture halls and school auditoriums with advanced lighting and sound systems.",
+
+            portfolio_item_4_title: "Structural & Concrete Works",
+            portfolio_item_4_desc: "Execution of reinforced concrete structures and foundations according to approved safety standards."
+
 
 
 
@@ -1139,6 +1151,20 @@
 
             portfolio_item_4_title: "الأعمال الخرسانية والهيكلية",
             portfolio_item_4_desc: "تنفيذ متكامل للأعمال الخرسانية المسلحة والهياكل الإنشائية وفقاً للمعايير الهندسية الدولية.", 
+            portfolio_item_1_title: "مشروع مدارس تعليمية متكاملة",
+            portfolio_item_1_desc: "تنفيذ مبنى مدرسي حديث بتصميم معماري مميز وبنية تحتية متكاملة وفق أعلى المعايير الهندسية.",
+
+            portfolio_item_2_title: "تنفيذ ملاعب رياضية متكاملة",
+            portfolio_item_2_desc: "إنشاء ملاعب نجيل صناعي عالية الجودة مع أنظمة تصريف وإضاءة مطابقة للمواصفات الفنية.",
+
+            portfolio_item_3_title: "تجهيز قاعات ومرافق تعليمية",
+            portfolio_item_3_desc: "تنفيذ قاعات محاضرات ومسرح مدرسي بأعمال تشطيب احترافية وأنظمة إضاءة وصوت متطورة.",
+
+            portfolio_item_4_title: "أعمال إنشائية وهيكل خرساني",
+            portfolio_item_4_desc: "تنفيذ الهياكل الخرسانية والأساسات وفق معايير السلامة والجودة المعتمدة."
+
+
+            
 
 
 

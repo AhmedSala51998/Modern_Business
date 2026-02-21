@@ -1824,3 +1824,41 @@ html[dir="rtl"] .btn-play span {
         transform: translate(-50%, -50%);
     }
 }
+/* Portfolio Card Animation */
+.portfolio-item {
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.portfolio-item img {
+    transition: transform 0.5s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.08);
+}
+
+/* Overlay Effect */
+.portfolio-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+    opacity: 0;
+    transition: 0.4s;
+    z-index: 1;
+}
+
+.portfolio-item:hover::before {
+    opacity: 1;
+}
+
+.portfolio-item .p-4 {
+    position: relative;
+    z-index: 2;
+}
