@@ -1908,3 +1908,46 @@ html[dir="rtl"] .btn-play span {
 .portfolio-item:hover::before {
     width: 100%;
 }
+/* ===============================
+   FIX EQUAL HEIGHT CARDS
+================================= */
+
+.portfolio-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-item img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.portfolio-item .p-4 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-item .p-4 p {
+    flex-grow: 1;
+}
+.portfolio-item h5,
+.portfolio-item p {
+    position: relative;
+    z-index: 2;
+}
+
+.portfolio-item::after {
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.55) 0%,
+        rgba(0,0,0,0.2) 50%,
+        transparent 100%
+    );
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.08);
+    filter: none;
+}
