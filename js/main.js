@@ -663,7 +663,7 @@
             team_role_1: "مدير العمليات",
             team_role_2: "مدير الشؤون الإدارية",
             team_role_3: "مدير الموارد البشرية",
-            team_name:   "أ / أحمد ختم",
+            team_name:   "أ / أحمد ختعم",
             testimonials_small: "آراء العملاء",
             testimonials_title: "ماذا يقول عملاؤنا",
 
