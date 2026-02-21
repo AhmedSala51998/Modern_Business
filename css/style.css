@@ -1824,41 +1824,87 @@ html[dir="rtl"] .btn-play span {
         transform: translate(-50%, -50%);
     }
 }
-/* Portfolio Card Animation */
+/* ===============================
+   PREMIUM PORTFOLIO ANIMATION
+================================= */
+
 .portfolio-item {
-    transition: all 0.4s ease;
     position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    background: #fff;
+    transition: 
+        transform 0.5s cubic-bezier(.2,.8,.2,1),
+        box-shadow 0.5s cubic-bezier(.2,.8,.2,1);
 }
 
+/* Image Styling */
 .portfolio-item img {
-    transition: transform 0.5s ease;
+    transition: 
+        transform 0.8s cubic-bezier(.2,.8,.2,1),
+        filter 0.6s ease;
+    will-change: transform;
 }
 
+/* Smooth Lift + Soft Shadow */
 .portfolio-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    transform: translateY(-15px) scale(1.02);
+    box-shadow: 
+        0 25px 60px rgba(0,0,0,0.15),
+        0 10px 25px rgba(0,0,0,0.08);
 }
 
+/* Cinematic Zoom */
 .portfolio-item:hover img {
-    transform: scale(1.08);
+    transform: scale(1.12);
+    filter: brightness(0.85);
 }
 
-/* Overlay Effect */
-.portfolio-item::before {
+/* Elegant Overlay */
+.portfolio-item::after {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.65) 0%,
+        rgba(0,0,0,0.3) 40%,
+        transparent 100%
+    );
     opacity: 0;
-    transition: 0.4s;
-    z-index: 1;
+    transition: opacity 0.6s ease;
 }
 
-.portfolio-item:hover::before {
+.portfolio-item:hover::after {
     opacity: 1;
 }
 
+/* Text Reveal Animation */
 .portfolio-item .p-4 {
     position: relative;
     z-index: 2;
+    transition: 
+        transform 0.5s ease,
+        opacity 0.5s ease;
+}
+
+.portfolio-item:hover .p-4 {
+    transform: translateY(-8px);
+}
+
+/* Accent Line Animation */
+.portfolio-item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 0%;
+    background: linear-gradient(90deg, #ff6600, #ff8533);
+    transition: width 0.5s ease;
+    z-index: 3;
+}
+
+.portfolio-item:hover::before {
+    width: 100%;
 }
