@@ -561,6 +561,23 @@
             crumb_sustainable_commercial_building: "Sustainable Commercial Construction Strategies",
 
 
+            portfolio_small_title: "Our Portfolio",
+            portfolio_main_title: "A Legacy of Excellence in Construction & Finishing",
+            portfolio_description: "Over the years, we have successfully delivered diverse construction and finishing projects across the Kingdom of Saudi Arabia, reflecting our commitment to quality, precision, and client satisfaction.",
+
+            portfolio_item_1_title: "Educational Facilities",
+            portfolio_item_1_desc: "Execution of private and public school buildings including structural works, exterior facades, and full interior finishing with modern educational standards.",
+
+            portfolio_item_2_title: "Luxury Residential Projects",
+            portfolio_item_2_desc: "Construction of premium villas and residential compounds designed with high-end architectural finishing and modern lifestyle requirements.",
+
+            portfolio_item_3_title: "Commercial & Office Buildings",
+            portfolio_item_3_desc: "Development of commercial complexes and office fit-out projects with professional project management and strict quality control.",
+
+            portfolio_item_4_title: "Concrete & Structural Works",
+            portfolio_item_4_desc: "Comprehensive reinforced concrete and structural framework projects executed according to international engineering standards."
+
+
 
         },
 
@@ -1107,6 +1124,21 @@
             crumb_modern_villa_trends: "أحدث اتجاهات بناء الفلل في المملكة العربية السعودية",
             crumb_sustainable_commercial_building: "استراتيجيات البناء التجاري المستدام",
             crumb_interior_finishing_standards: "معايير التشطيبات الداخلية في البناء الحديث",
+            portfolio_small_title: "سابقة أعمالنا",
+            portfolio_main_title: "سجل حافل بالتميز في البناء والتشطيبات",
+            portfolio_description: "على مدار السنوات، قمنا بتنفيذ مجموعة متنوعة من مشاريع البناء والتشطيب في مختلف مناطق المملكة العربية السعودية، مع التزام كامل بالجودة والدقة ورضا العملاء.",
+
+            portfolio_item_1_title: "المشاريع التعليمية",
+            portfolio_item_1_desc: "تنفيذ مباني المدارس الحكومية والأهلية بما يشمل الأعمال الإنشائية والواجهات الخارجية والتشطيبات الداخلية وفق أحدث المعايير التعليمية.",
+
+            portfolio_item_2_title: "المشاريع السكنية الفاخرة",
+            portfolio_item_2_desc: "إنشاء فلل ومجمعات سكنية راقية بتصاميم معمارية حديثة وتشطيبات عالية الجودة تلبي متطلبات الحياة العصرية.",
+
+            portfolio_item_3_title: "المباني التجارية والإدارية",
+            portfolio_item_3_desc: "تنفيذ مجمعات تجارية وأعمال تجهيز المكاتب بإدارة احترافية للمشاريع ومعايير صارمة لمراقبة الجودة.",
+
+            portfolio_item_4_title: "الأعمال الخرسانية والهيكلية",
+            portfolio_item_4_desc: "تنفيذ متكامل للأعمال الخرسانية المسلحة والهياكل الإنشائية وفقاً للمعايير الهندسية الدولية.", 
 
 
 
