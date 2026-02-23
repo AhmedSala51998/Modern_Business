@@ -2108,3 +2108,35 @@ html[dir="rtl"] .btn-play span {
 .project-description {
     flex-grow: 1;
 }
+.gallery-img {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.gallery-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: 0.4s ease;
+}
+.gallery-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    opacity: 0;
+    transition: 0.4s ease;
+}
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
