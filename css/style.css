@@ -1990,3 +1990,27 @@ html[dir="rtl"] .btn-play span {
 .portfolio-item:hover p {
     color: #ffffff !important;
 }
+/* ===============================
+   STRONG VISIBLE GRADIENT
+================================= */
+
+.portfolio-item .p-4 {
+    position: relative;
+    z-index: 2;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item:hover .p-4 {
+    background: linear-gradient(
+        to top,
+        rgba(2,36,91,1) 0%,
+        rgba(2,36,91,0.85) 40%,
+        rgba(2,36,91,0.55) 70%,
+        rgba(2,36,91,0.2) 100%
+    );
+}
+
+.portfolio-item:hover h5,
+.portfolio-item:hover p {
+    color: #ffffff !important;
+}
