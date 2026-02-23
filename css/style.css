@@ -2140,3 +2140,17 @@ html[dir="rtl"] .btn-play span {
 .gallery-item:hover .gallery-overlay {
     opacity: 1;
 }
+.row.g-4 > [class*='col-'] {
+    display: flex;
+}
+
+.gallery-item {
+    width: 100%;
+    display: block;
+}
+.gallery-img img {
+    display: block;
+}
+.gallery-img img {
+    object-position: center center;
+}
