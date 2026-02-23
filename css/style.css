@@ -2277,3 +2277,6 @@ html[dir="rtl"] .blog-content blockquote {
 .project-carousel .owl-nav button:hover {
     background: #084298 !important;
 }
+html, body {
+    overflow-x: hidden;
+}
