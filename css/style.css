@@ -2038,3 +2038,34 @@ html[dir="rtl"] .btn-play span {
 .team-item .d-flex {
     flex: 1;
 }
+/* ===============================
+   EQUAL HEIGHT PROJECT CAROUSEL
+================================= */
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.project-item img {
+    height: 260px; 
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-title {
+    min-height: 90px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.project-title h5 {
+    width: 100%;
+}
