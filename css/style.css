@@ -1825,6 +1825,12 @@ html[dir="rtl"] .btn-play span {
         transform: translate(-50%, -50%);
     }
 }
+
+/* Blockquote */
+html[dir="rtl"] .blog-content blockquote {
+    border-right: 5px solid #0d6efd;
+
+}
 /* ===============================
    PREMIUM PORTFOLIO ANIMATION
 ================================= */
