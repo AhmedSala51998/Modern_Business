@@ -1829,6 +1829,7 @@ html[dir="rtl"] .btn-play span {
 /* Blockquote */
 html[dir="rtl"] .blog-content blockquote {
     border-right: 5px solid #0d6efd;
+    border-left: none !important;
 
 }
 /* ===============================
