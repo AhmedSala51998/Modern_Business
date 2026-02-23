@@ -1967,3 +1967,26 @@ html[dir="rtl"] .btn-play span {
         0 2px 8px rgba(0,0,0,0.4),
         0 1px 2px rgba(0,0,0,0.3);
 }
+/* ===============================
+   GRADIENT BACKGROUND ON TEXT WRAPPER
+================================= */
+
+.portfolio-item .p-4 {
+    position: relative;
+    z-index: 2;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item:hover .p-4 {
+    background: linear-gradient(
+        to right,
+        rgba(2,36,91,0.95) 0%,
+        rgba(2,36,91,0.75) 100%
+    );
+    backdrop-filter: blur(6px);
+}
+
+.portfolio-item:hover h5,
+.portfolio-item:hover p {
+    color: #ffffff !important;
+}
