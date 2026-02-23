@@ -586,8 +586,8 @@
             portfolio_item_3_desc: "Professional finishing of lecture halls and school auditoriums with advanced lighting and sound systems.",
 
             portfolio_item_4_title: "Structural & Concrete Works",
-            portfolio_item_4_desc: "Execution of reinforced concrete structures and foundations according to approved safety standards."
-
+            portfolio_item_4_desc: "Execution of reinforced concrete structures and foundations according to approved safety standards.",
+            view_project_btn: "View Project",
 
 
 
@@ -1161,7 +1161,8 @@
             portfolio_item_3_desc: "تنفيذ قاعات محاضرات ومسرح مدرسي بأعمال تشطيب احترافية وأنظمة إضاءة وصوت متطورة.",
 
             portfolio_item_4_title: "أعمال إنشائية وهيكل خرساني",
-            portfolio_item_4_desc: "تنفيذ الهياكل الخرسانية والأساسات وفق معايير السلامة والجودة المعتمدة."
+            portfolio_item_4_desc: "تنفيذ الهياكل الخرسانية والأساسات وفق معايير السلامة والجودة المعتمدة.",
+            view_project_btn: "عرض المشروع",
 
 
             
