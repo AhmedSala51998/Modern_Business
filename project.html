@@ -30,115 +30,83 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <style>
-        /* ===============================
-        PROJECT PAGE PREMIUM DESIGN
-        ================================ */
-
-        .title-divider {
-            width: 80px;
-            height: 4px;
-            background: #0d6efd;
-            margin: 15px auto 0;
-            border-radius: 3px;
-        }
-
-        /* خلي الكروت متساوية */
-        .row.g-4 > [class*='col-'] {
-            display: flex;
-        }
-
-        /* الكارت */
-        .project-card {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            background: #fff;
-            border-radius: 20px;
-            overflow: hidden;
-            text-decoration: none;
-            transition: 0.4s ease;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-        }
-
-        .project-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 30px 70px rgba(0,0,0,0.12);
-        }
-
-        /* الصورة */
-        .project-image {
+        /* ===== Modern Project Cards ===== */
+        .project-card-modern {
             position: relative;
-            height: 270px;
             overflow: hidden;
+            border-radius: 20px;
+            transition: all 0.4s ease;
+            background: #fff;
+            height: 100%;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.08);
         }
 
-        .project-image img {
+        .project-card-modern:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+        }
+
+        .project-image-wrapper {
+            position: relative;
+            overflow: hidden;
+            aspect-ratio: 4/3;
+        }
+
+        .project-image-wrapper img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: 0.7s ease;
+            transition: transform 0.6s ease;
         }
 
-        /* Overlay */
-        .project-overlay {
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(
-                to top,
-                rgba(0,0,0,0.9) 15%,
-                rgba(0,0,0,0.4) 45%,
-                transparent 75%
-            );
-        }
-
-        /* عنوان */
-        .project-title {
-            position: absolute;
-            bottom: 25px;
-            left: 25px;
-            right: 25px;
-            z-index: 2;
-        }
-
-        .project-title h5 {
-            color: #fff;
-            font-weight: 600;
-            font-size: 18px;
-            margin: 0;
-        }
-
-        /* وصف */
-        .project-description {
-            padding: 22px;
-            flex-grow: 1;
-        }
-
-        .project-description p {
-            color: #6c757d;
-            font-size: 14px;
-            line-height: 1.7;
-            margin: 0;
-        }
-
-        /* Hover Effects */
-        .project-card:hover img {
+        .project-card-modern:hover .project-image-wrapper img {
             transform: scale(1.1);
         }
 
-        .project-card:hover .project-title h5 {
-            transform: translateY(-5px);
-            transition: 0.4s ease;
+        .project-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.1));
+            display: flex;
+            align-items: flex-end;
+            padding: 25px;
+            transition: 0.4s;
         }
 
-        /* RTL Support */
-        [dir="rtl"] .project-title {
-            left: auto;
-            right: 25px;
-            text-align: right;
+        .project-content {
+            color: #fff;
         }
 
-        [dir="rtl"] .project-description {
-            text-align: right;
+        .project-content h5 {
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .project-content p {
+            font-size: 14px;
+            opacity: 0.85;
+        }
+
+        .project-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 18px;
+            font-size: 13px;
+            font-weight: 600;
+            border-radius: 30px;
+            background: #0d6efd;
+            color: #fff;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        .project-btn:hover {
+            background: #fff;
+            color: #0d6efd;
+        }
+
+        .project-section-modern {
+            background: linear-gradient(135deg, #f8f9fa, #ffffff);
         }
     </style>
 </head>
@@ -264,139 +232,93 @@
     </div>
     <!-- Page Header End -->
 
-
-    <!-- Project Start -->
-    <div class="container-fluid py-5 my-5 px-0 bg-light">
+    <!-- ===== Modern Projects Section Start ===== -->
+    <div class="container-fluid project-section-modern py-5 my-5">
         <div class="container">
 
-            <div class="text-center mx-auto mb-5" style="max-width: 650px;">
-                <p class="fw-medium text-uppercase text-primary mb-2" data-lang="projects_small">
+            <!-- Section Title -->
+            <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="fw-bold text-uppercase text-primary mb-2" data-lang="projects_small">
                     Our Projects
                 </p>
-                <h1 class="display-5 mb-3 fw-bold" data-lang="projects_title">
+                <h1 class="display-5 mb-5 fw-bold" data-lang="projects_title">
                     See What We Have Completed Recently
                 </h1>
-                <div class="title-divider"></div>
             </div>
 
             <div class="row g-4">
 
                 <!-- Project 1 -->
-                <div class="col-md-6 col-lg-4">
-                    <a href="project-details_alhaditha_schools_yanbu" class="project-card">
-                        <div class="project-image">
-                            <img src="img/project-7.webp" alt="Al Haditha Private Schools">
-                            <div class="project-overlay"></div>
-                            <div class="project-title">
-                                <h5 data-lang="schoolproj_card_title">
-                                    Al Haditha Private Schools - Yanbu
-                                </h5>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="project-details_alhaditha_schools_yanbu" class="text-decoration-none">
+                        <div class="project-card-modern">
+
+                            <div class="project-image-wrapper">
+                                <img src="img/project-7.webp" alt="Al Haditha Private Schools">
+
+                                <div class="project-overlay">
+                                    <div class="project-content">
+                                        <h5 data-lang="schoolproj_card_title">
+                                            Al Haditha Private Schools - Yanbu
+                                        </h5>
+                                        <p data-lang="schoolproj_card_desc">
+                                            Comprehensive construction and finishing works for a modern educational campus.
+                                        </p>
+                                        <span class="project-btn" data-lang="view_project_btn">
+                                            View Project
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="project-description">
-                            <p data-lang="schoolproj_card_desc">
-                                Comprehensive construction and finishing works for a modern educational campus.
-                            </p>
+
                         </div>
                     </a>
                 </div>
 
                 <!-- Project 2 -->
-                <div class="col-md-6 col-lg-4">
-                    <a href="project-details_luxury_villa" class="project-card">
-                        <div class="project-image">
-                            <img src="img/project-1.jpg" alt="">
-                            <div class="project-overlay"></div>
-                            <div class="project-title">
-                                <h5 data-lang="project_1">
-                                    Luxury Residential Villa Construction
-                                </h5>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <a href="project-details_luxury_villa" class="text-decoration-none">
+                        <div class="project-card-modern">
+                            <div class="project-image-wrapper">
+                                <img src="img/project-1.jpg" alt="">
+                                <div class="project-overlay">
+                                    <div class="project-content">
+                                        <h5 data-lang="project_1">
+                                            Luxury Residential Villa Construction
+                                        </h5>
+                                        <p data-lang="project_desc_1_short">
+                                            High-end residential villa built with premium materials and modern architectural standards.
+                                        </p>
+                                        <span class="project-btn" data-lang="view_project_btn">
+                                            View Project
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="project-description">
-                            <p data-lang="project_desc_1_short">
-                                High-end residential villa built with premium materials and modern architectural standards.
-                            </p>
                         </div>
                     </a>
                 </div>
 
                 <!-- Project 3 -->
-                <div class="col-md-6 col-lg-4">
-                    <a href="project-details_commercial_building" class="project-card">
-                        <div class="project-image">
-                            <img src="img/project-2.jpg" alt="">
-                            <div class="project-overlay"></div>
-                            <div class="project-title">
-                                <h5 data-lang="project_2">
-                                    Commercial Building Project
-                                </h5>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="project-details_commercial_building" class="text-decoration-none">
+                        <div class="project-card-modern">
+                            <div class="project-image-wrapper">
+                                <img src="img/project-2.jpg" alt="">
+                                <div class="project-overlay">
+                                    <div class="project-content">
+                                        <h5 data-lang="project_2">
+                                            Commercial Building Project
+                                        </h5>
+                                        <p data-lang="project_desc_2_short">
+                                            Complete structural and finishing works for a multi-story commercial building.
+                                        </p>
+                                        <span class="project-btn" data-lang="view_project_btn">
+                                            View Project
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="project-description">
-                            <p data-lang="project_desc_2_short">
-                                Complete structural and finishing works for a multi-story commercial building.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="col-md-6 col-lg-4">
-                    <a href="project-details_full_interior" class="project-card">
-                        <div class="project-image">
-                            <img src="img/project-3.jpg" alt="">
-                            <div class="project-overlay"></div>
-                            <div class="project-title">
-                                <h5 data-lang="project_3">
-                                    Full Interior Finishing Works
-                                </h5>
-                            </div>
-                        </div>
-                        <div class="project-description">
-                            <p data-lang="project_desc_3_short">
-                                Premium interior finishing including gypsum, flooring, lighting, and paint solutions.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="col-md-6 col-lg-4">
-                    <a href="project-details_office_fit-out" class="project-card">
-                        <div class="project-image">
-                            <img src="img/project-4.jpg" alt="">
-                            <div class="project-overlay"></div>
-                            <div class="project-title">
-                                <h5 data-lang="project_4">
-                                    Office Fit-Out & Renovation
-                                </h5>
-                            </div>
-                        </div>
-                        <div class="project-description">
-                            <p data-lang="project_desc_4_short">
-                                Modern office renovation with customized layouts and high-quality finishing standards.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Project 6 -->
-                <div class="col-md-6 col-lg-4">
-                    <a href="project-details_concrete_and_structural_works" class="project-card">
-                        <div class="project-image">
-                            <img src="img/project-5.jpg" alt="">
-                            <div class="project-overlay"></div>
-                            <div class="project-title">
-                                <h5 data-lang="project_5">
-                                    Concrete & Structural Works
-                                </h5>
-                            </div>
-                        </div>
-                        <div class="project-description">
-                            <p data-lang="project_desc_5_short">
-                                Reinforced concrete and structural framework construction for large-scale developments.
-                            </p>
                         </div>
                     </a>
                 </div>
@@ -405,7 +327,7 @@
 
         </div>
     </div>
-    <!-- Project End -->
+    <!-- ===== Modern Projects Section End ===== -->
         
 
     <!-- Footer Start -->
