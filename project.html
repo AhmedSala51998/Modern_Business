@@ -110,6 +110,124 @@
             background: linear-gradient(135deg, #f8f9fa, #ffffff);
         }
 
+        /* ===== Premium Projects Section ===== */
+        .project-section-modern {
+            background: linear-gradient(135deg, #f8f9fa, #eef1f5);
+        }
+
+        .project-card-modern {
+            position: relative;
+            overflow: hidden;
+            border-radius: 18px;
+            transition: all 0.4s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+            height: 100%;
+            background: #000;
+        }
+
+        .project-card-modern:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+        }
+
+        .project-image-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            aspect-ratio: 4/3;
+            overflow: hidden;
+        }
+
+        .project-image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.7s ease;
+        }
+
+        .project-card-modern:hover img {
+            transform: scale(1.12);
+        }
+
+        /* Gradient Overlay */
+        .project-overlay {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: flex-end;
+            padding: 30px;
+            background: linear-gradient(
+                to top,
+                rgba(0,0,0,0.85) 10%,
+                rgba(0,0,0,0.5) 40%,
+                rgba(0,0,0,0.1) 70%
+            );
+            transition: 0.4s;
+        }
+
+        /* Content */
+        .project-content {
+            color: #fff;
+            transform: translateY(20px);
+            transition: 0.4s ease;
+        }
+
+        .project-card-modern:hover .project-content {
+            transform: translateY(0);
+        }
+
+        .project-content h5 {
+            font-weight: 700;
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #ff6b00;
+        }
+
+        .project-content p {
+            font-size: 14px;
+            opacity: 0.85;
+            margin-bottom: 15px;
+        }
+
+        /* Button */
+        .project-btn {
+            display: inline-block;
+            padding: 8px 20px;
+            font-size: 13px;
+            font-weight: 600;
+            border-radius: 50px;
+            background: #0d6efd;
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .project-btn:hover {
+            background: #fff;
+            color: #0d6efd;
+        }
+
+        /* Equal Height Fix */
+        .project-section-modern .row > [class*="col-"] {
+            display: flex;
+        }
+
+        /* Mobile Fix */
+        @media (max-width: 768px) {
+            .project-overlay {
+                padding: 20px;
+            }
+
+            .project-content h5 {
+                font-size: 16px;
+            }
+
+            .project-content p {
+                font-size: 13px;
+            }
+        }
+        
+
     </style>
 </head>
 
@@ -248,10 +366,10 @@
                 </h1>
             </div>
 
-            <div class="row">
+            <div class="row g-4">
 
                 <!-- Project 1 -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" style="margin-bottom: 20px !important;" data-wow-delay="0.1s">
+                <div class="col-md-6 col-lg-4 wow fadeInUp"" data-wow-delay="0.1s">
                     <a href="project-details_alhaditha_schools_yanbu" class="text-decoration-none">
                         <div class="project-card-modern">
                             <div class="project-image-wrapper">
@@ -273,7 +391,7 @@
                 </div>
 
                 <!-- Project 2 -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" style="margin-bottom: 20px !important;" data-wow-delay="0.2s">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <a href="project-details_luxury_villa" class="text-decoration-none">
                         <div class="project-card-modern">
                             <div class="project-image-wrapper">
@@ -293,7 +411,7 @@
                 </div>
 
                 <!-- Project 3 -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" style="margin-bottom: 20px !important;" data-wow-delay="0.3s">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <a href="project-details_commercial_building" class="text-decoration-none">
                         <div class="project-card-modern">
                             <div class="project-image-wrapper">
@@ -313,7 +431,7 @@
                 </div>
 
                 <!-- Project 4 -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" style="margin-bottom: 20px !important;" data-wow-delay="0.4s">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <a href="project-details_full_interior" class="text-decoration-none">
                         <div class="project-card-modern">
                             <div class="project-image-wrapper">
@@ -333,7 +451,7 @@
                 </div>
 
                 <!-- Project 5 -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" style="margin-bottom: 20px !important;" data-wow-delay="0.5s">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <a href="project-details_office_fit-out" class="text-decoration-none">
                         <div class="project-card-modern">
                             <div class="project-image-wrapper">
@@ -353,7 +471,7 @@
                 </div>
 
                 <!-- Project 6 -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" style="margin-bottom: 20px !important;" data-wow-delay="0.6s">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <a href="project-details_concrete_and_structural_works" class="text-decoration-none">
                         <div class="project-card-modern">
                             <div class="project-image-wrapper">
@@ -373,7 +491,7 @@
                 </div>
 
                 <!-- Project 7 -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" style="margin-bottom: 20px !important;" data-wow-delay="0.7s">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
                     <a href="project-details_exterior_facade_and_finishing_projects" class="text-decoration-none">
                         <div class="project-card-modern">
                             <div class="project-image-wrapper">
