@@ -2280,3 +2280,44 @@ html[dir="rtl"] .blog-content blockquote {
 html, body {
     overflow-x: hidden !important;
 }
+
+/* ===== Premium Mobile Offcanvas ===== */
+
+.offcanvas {
+    width: 280px;
+    border: none;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.95);
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.offcanvas .nav-link {
+    font-weight: 500;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+    transition: 0.3s;
+}
+
+.offcanvas .nav-link:hover {
+    color: #ff6b00;
+    padding-left: 10px;
+}
+
+.offcanvas .btn {
+    border-radius: 30px;
+}
+html[dir="rtl"] .offcanvas {
+    right: 0;
+    left: auto;
+}
+.offcanvas.show {
+    animation: slideIn 0.4s ease;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
