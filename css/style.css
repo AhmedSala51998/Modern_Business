@@ -2416,3 +2416,127 @@ html[dir="ltr"] .premium-menu {
     left: 0;
     right: auto;
 }
+/* ===== Premium Sidebar ===== */
+
+.premium-menu {
+    width: 340px;
+    background: linear-gradient(180deg, #ffffff, #f8f8f8);
+    padding: 30px 25px;
+    border: none;
+}
+
+/* Header */
+.premium-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-wrapper img {
+    height: 45px;
+}
+
+.brand-text {
+    font-weight: 700;
+    font-size: 18px;
+    color: #111;
+}
+
+/* Close Button */
+.menu-close {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #111;
+    transition: 0.3s;
+}
+
+.menu-close:hover {
+    color: #e4332d;
+}
+
+/* Links */
+.premium-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    background: #e4332d;
+    color: #fff !important;
+    transition: 0.3s ease;
+}
+
+.premium-link i {
+    font-size: 18px;
+    color: #fff;
+}
+
+.premium-link:hover,
+.premium-link.active {
+    background: #c62823;
+    color: #fff !important;
+}
+
+/* CTA */
+.premium-cta {
+    display: block;
+    margin-top: 25px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+    background: #111;
+    color: #fff !important;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.premium-cta:hover {
+    background: #e4332d;
+}
+
+/* Footer */
+.premium-footer {
+    margin-top: 40px;
+}
+
+.phone-number {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    background: #e4332d;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    background: #c62823;
+}
