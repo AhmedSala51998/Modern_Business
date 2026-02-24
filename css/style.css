@@ -2286,49 +2286,10 @@ html, body {
     width: 310px;
     padding: 0;
     border: none;
-    display: flex;
-    flex-direction: column;
+    overflow: hidden;
     transition: transform .45s cubic-bezier(.77,0,.18,1),
                 opacity .35s ease;
 }
-html[dir="rtl"] .ultra-links {
-    direction: rtl;
-}
-
-html[dir="ltr"] .ultra-links {
-    direction: ltr;
-}
-
-.ultra-links > * {
-    direction: inherit;
-}
-.ultra-links {
-    flex: 1;
-    overflow-y: auto;
-    scrollbar-width: thin;
-    scrollbar-color: #03357a transparent;
-}
-
-/* Chrome */
-.ultra-links::-webkit-scrollbar {
-    width: 6px;
-}
-
-.ultra-links::-webkit-scrollbar-track {
-    background: rgba(255,255,255,.05);
-    border-radius: 10px;
-}
-
-.ultra-links::-webkit-scrollbar-thumb {
-    background: linear-gradient(
-        180deg,
-        #02245b 0%,
-        #03357a 50%,
-        #044a9c 100%
-    );
-    border-radius: 10px;
-}
-
 .offcanvas.show {
     transform: translateX(0);
     opacity: 1;
@@ -2366,13 +2327,11 @@ html[dir="ltr"] .ultra-menu {
 .menu-content {
     position: relative;
     z-index: 2;
-    height: 100%;
-    max-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 30px 20px;
+    padding: 40px 30px;
     color: #fff;
-    overflow: hidden;
 }
 
 /* Header */
@@ -2432,7 +2391,6 @@ html[dir="ltr"] .ultra-menu {
     overflow-y: auto;
     padding-right: 5px;
     scrollbar-width: thin;
-    min-height: 0;
 }
 
 .ultra-links::-webkit-scrollbar {
@@ -2587,17 +2545,5 @@ html[dir="rtl"] .ultra-link:hover {
         rgba(2,36,91,0.85) 0%,
         rgba(2,36,91,0.6) 100%
     );
-}
-.ultra-link.active::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 12px;
-    background: linear-gradient(
-        to bottom,
-        rgba(255,255,255,.15),
-        rgba(255,255,255,0)
-    );
-    pointer-events: none;
 }
 
