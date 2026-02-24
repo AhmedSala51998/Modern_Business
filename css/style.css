@@ -2278,5 +2278,5 @@ html[dir="rtl"] .blog-content blockquote {
     background: #084298 !important;
 }
 html, body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
