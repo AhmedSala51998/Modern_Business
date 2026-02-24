@@ -2283,7 +2283,7 @@ html, body {
 /* ===== Full Creative Sidebar ===== */
 
 .ultra-menu {
-    width: 370px;
+    width: 340px;
     padding: 0;
     border: none;
     overflow: hidden;
@@ -2447,14 +2447,38 @@ html, body {
 .ultra-social a:hover {
     background: #e4332d;
 }
-/* الوضع العربي */
 html[dir="rtl"] .ultra-menu {
     right: 0;
     left: auto;
 }
 
-/* الوضع الإنجليزي */
 html[dir="ltr"] .ultra-menu {
     left: 0;
     right: auto;
+}
+.ultra-link.active {
+    background: linear-gradient(
+        90deg,
+        #e4332d 0%,
+        #ff5a52 100%
+    );
+    padding: 14px 18px;
+    border-radius: 12px;
+    color: #fff !important;
+    box-shadow: 0 8px 25px rgba(228,51,45,0.35);
+}
+
+.ultra-link.active i {
+    color: #fff;
+}
+
+.ultra-link.active::after {
+    display: none;
+}
+html[dir="rtl"] .ultra-link.active {
+    background: linear-gradient(
+        270deg,
+        #e4332d 0%,
+        #ff5a52 100%
+    );
 }
