@@ -2283,10 +2283,34 @@ html, body {
 /* ===== Full Creative Sidebar ===== */
 
 .ultra-menu {
-    width: 340px;
+    width: 290px;
     padding: 0;
     border: none;
     overflow: hidden;
+    transition: transform .45s cubic-bezier(.77,0,.18,1),
+                opacity .35s ease;
+}
+.offcanvas.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.offcanvas:not(.show) {
+    opacity: 0.6;
+}
+.ultra-menu {
+    transform: translateX(100%) scale(.98);
+}
+
+.offcanvas.show.ultra-menu {
+    transform: translateX(0) scale(1);
+}
+html[dir="rtl"] .ultra-menu {
+    transform: translateX(100%) scale(.98);
+}
+
+html[dir="ltr"] .ultra-menu {
+    transform: translateX(-100%) scale(.98);
 }
 
 /* Background like page-header */
