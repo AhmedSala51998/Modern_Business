@@ -58,8 +58,8 @@
             c6_title: "Delivering High-Performance Commercial and Industrial Facilities Built to International Standards",
             c6_btn: "Start Your Project Today",
             about_small: "About Us",
-            about_title: "Leading Construction & Finishing Company in Saudi Arabia",
-            about_desc: "We are a professional construction company based in the Kingdom of Saudi Arabia, specializing in building construction, civil works, and high-quality interior and exterior finishing. With extensive experience in residential, commercial, and industrial projects, we deliver reliable, cost-effective, and timely solutions tailored to our clients’ needs.",
+            about_title: "Leading Construction & Finishing Establishment in Saudi Arabia",
+            about_desc: "We are a professional construction Establishment based in the Kingdom of Saudi Arabia, specializing in building construction, civil works, and high-quality interior and exterior finishing. With extensive experience in residential, commercial, and industrial projects, we deliver reliable, cost-effective, and timely solutions tailored to our clients’ needs.",
 
             years_of: "Years of",
             experience: "Experience",
@@ -634,8 +634,8 @@
             c6_title: "تنفيذ منشآت تجارية وصناعية عالية الأداء وفق المعايير الدولية",
             c6_btn: "ابدأ مشروعك اليوم",
             about_small: "من نحن",
-            about_title: "شركة رائدة في مجال البناء والتشطيبات في المملكة العربية السعودية",
-            about_desc: "نحن شركة مقاولات متخصصة في المملكة العربية السعودية، نقدم خدمات البناء والأعمال المدنية والتشطيبات الداخلية والخارجية بأعلى معايير الجودة. نمتلك خبرة واسعة في المشاريع السكنية والتجارية والصناعية ونوفر حلولاً موثوقة واقتصادية يتم تنفيذها في الوقت المحدد وفقاً لاحتياجات عملائنا.",
+            about_title: "مؤسسسة رائدة في مجال البناء والتشطيبات في المملكة العربية السعودية",
+            about_desc: "نحن مؤسسة مقاولات متخصصة في المملكة العربية السعودية، نقدم خدمات البناء والأعمال المدنية والتشطيبات الداخلية والخارجية بأعلى معايير الجودة. نمتلك خبرة واسعة في المشاريع السكنية والتجارية والصناعية ونوفر حلولاً موثوقة واقتصادية يتم تنفيذها في الوقت المحدد وفقاً لاحتياجات عملائنا.",
 
             years_of: "سنة من",
             experience: "الخبرة",
