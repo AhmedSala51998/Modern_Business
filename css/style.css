@@ -2506,3 +2506,64 @@ html[dir="rtl"] .ultra-link.active {
         #ff5a52 100%
     );
 }
+/* Base Transition */
+.ultra-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 18px;
+    border-radius: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all .35s cubic-bezier(.77,0,.18,1);
+}
+
+/* ================= ACTIVE ================= */
+.ultra-link.active {
+    background: linear-gradient(
+        90deg,
+        #d62828 0%,
+        #ff4d4d 100%
+    );
+    color: #fff !important;
+    box-shadow:
+        0 6px 18px rgba(214,40,40,.35),
+        inset 0 1px 0 rgba(255,255,255,.15);
+    transform: translateX(6px);
+}
+
+/* RTL Gradient Direction */
+html[dir="rtl"] .ultra-link.active {
+    background: linear-gradient(
+        270deg,
+        #d62828 0%,
+        #ff4d4d 100%
+    );
+}
+
+/* Icon White */
+.ultra-link.active i {
+    color: #fff;
+}
+
+/* ================= HOVER ================= */
+.ultra-link:hover:not(.active) {
+    background: linear-gradient(
+        to right,
+        rgba(2,36,91,1) 0%,
+        rgba(2,36,91,.8) 60%
+    );
+    box-shadow: 0 4px 12px rgba(0,0,0,.25);
+    transform: translateX(4px);
+}
+
+/* RTL Hover Direction */
+html[dir="rtl"] .ultra-link:hover:not(.active) {
+    background: linear-gradient(
+        to left,
+        rgba(2,36,91,1) 0%,
+        rgba(2,36,91,.8) 60%
+    );
+}
