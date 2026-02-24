@@ -35,7 +35,7 @@
             follow: "Follow Us:",
             call: "Call Us:",
             c1_small: "Trusted Construction Experts in Saudi Arabia",
-            c1_title: "Leading Building Construction & Finishing Company in the Kingdom of Saudi Arabia",
+            c1_title: "Leading Building Construction & Finishing Establishment in the Kingdom of Saudi Arabia",
             c1_btn: "Explore Our Services",
 
             c2_small: "Quality • Commitment • Professional Execution",
@@ -611,7 +611,7 @@
             follow: "تابعنا:",
             call: "اتصل بنا:",
             c1_small: "خبراء البناء الموثوقون في المملكة العربية السعودية",
-            c1_title: "شركة رائدة في أعمال البناء والتشطيبات في المملكة العربية السعودية",
+            c1_title: "مؤسسة رائدة في أعمال البناء والتشطيبات في المملكة العربية السعودية",
             c1_btn: "اكتشف خدماتنا",
 
             c2_small: "الجودة • الالتزام • التنفيذ الاحترافي",
@@ -634,7 +634,7 @@
             c6_title: "تنفيذ منشآت تجارية وصناعية عالية الأداء وفق المعايير الدولية",
             c6_btn: "ابدأ مشروعك اليوم",
             about_small: "من نحن",
-            about_title: "مؤسسسة رائدة في مجال البناء والتشطيبات في المملكة العربية السعودية",
+            about_title: "مؤسسة رائدة في مجال البناء والتشطيبات في المملكة العربية السعودية",
             about_desc: "نحن مؤسسة مقاولات متخصصة في المملكة العربية السعودية، نقدم خدمات البناء والأعمال المدنية والتشطيبات الداخلية والخارجية بأعلى معايير الجودة. نمتلك خبرة واسعة في المشاريع السكنية والتجارية والصناعية ونوفر حلولاً موثوقة واقتصادية يتم تنفيذها في الوقت المحدد وفقاً لاحتياجات عملائنا.",
 
             years_of: "سنة من",
