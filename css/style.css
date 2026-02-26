@@ -2546,7 +2546,3 @@ html[dir="rtl"] .ultra-link:hover {
         rgba(2,36,91,0.6) 100%
     );
 }
-.navbar.sticky-top {
-    top: -100px;
-    transition: .5s;
-}
